@@ -1,8 +1,7 @@
 # Summary
 
-The Pomak UD treebank  is derived from the Pomak Dependency Treebank
-(http://gdt.ilsp.gr), a resource developed and maintained by
-researchers at the Institute for Language and Speech Processing/Athena
+The Pomak UD treebank  is derived from the Pomak Dependency Treebank,
+a resource developed and maintained by researchers at the Institute for Language and Speech Processing/Athena
 R.C. (http://www.ilsp.gr).
 
 # Introduction
