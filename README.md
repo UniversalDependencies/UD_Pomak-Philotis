@@ -23,7 +23,7 @@ efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicola
 
 ## References
 
-* 
+* Karahóǧa, R. Krimpas, P., Stamou, V., Arampatzakis, V., Karamatskos, D., Sevetlidis, V.,  Constantinides, N., Kokkas, N., Pavlidis, G., Markantonatou,S. (2022). Morphologically annotated corpora of Pomak. In Proceedings of the 5th Workshop on the Use of Computational Methods in the Study of Endangered Languages: The Use of Computational Methods in the Study of Endangered Languages. Association for Computational Linguistics. Dublin, May 26-27, 2022. 
 
 # Data splits
 
