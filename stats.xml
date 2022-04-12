@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>6351</sentences><tokens>86782</tokens><words>86782</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="3935" /><!-- som, ja, ., ,, i, da, so, na, adín, -, faf, moj, še, :, za -->
+  <forms unique="10863" /><!-- ., je, ,, i, da, só, na, so, -, faf, go, še, :, za, sí -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">2611</tag><!-- star, gulǽm, mlógo, cæl, húbav, míček, mlad, altónen, kámaton, čárckyj -->
+    <tag name="ADP">5464</tag><!-- na, faf, ad, sas, za, at, nah, prez, pa, da -->
+    <tag name="ADV">4336</tag><!-- pak, po, itám, naj, azám, le, kadé, sétne, kak, játse -->
+    <tag name="AUX">10438</tag><!-- som, da, še, býdom, šom, štom -->
+    <tag name="CCONJ">4491</tag><!-- i, alá, am, íli, níta, amá, áma, ni, hem, lǽjkim -->
+    <tag name="DET">3487</tag><!-- adín, isazí, žýjes, drug, kutrí, moj, kakvóv, bir, vrítsi, vrit -->
+    <tag name="INTJ">129</tag><!-- a, bre, ah, bæ, e, ájde, eh, ha, oh, vaj -->
+    <tag name="NOUN">12863</tag><!-- čulǽk, kóšta, žaná, rábata, májka, momá, den, bubájko, déte, godína -->
+    <tag name="NUM">1176</tag><!-- adín, dvomína, tri, dve, dva, trimína, kyrk, beš, on, jedí -->
+    <tag name="PART">2024</tag><!-- ne, na, ní, li, ta, néma, óti, no, sæ, da -->
+    <tag name="PRON">8704</tag><!-- ja, so, moj, kaná, kanása, Ají, isazí, žýjes -->
+    <tag name="PROPN">1098</tag><!-- Ksánti, Aminǽ, Elláda, Ǧumágün, Kélčo, mára, Isén, Nasradín, Četvórtak, Alí -->
+    <tag name="PUNCT">13357</tag><!-- ., ,, -, :, ?, –, !, ", «, » -->
+    <tag name="SCONJ">1555</tag><!-- óti, agá, pak, če, za, akú, durgá, atkák, agý, agýna -->
+    <tag name="VERB">15009</tag><!-- réčem, ímom, ídom, zǿmom, víkom, vídem, dam, íštom, móžom, stánom -->
+    <tag name="X">40</tag><!-- gidí, pródon, ejlé, Allahýn, cíu, gak, izní, jašindá, páta, spíti -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="63">
+    <feat name="Abbr" value="Yes" upos="NOUN,PROPN">27</feat><!-- DEIno, i.d., KKE, OGOno, PAME, ogá, H., KEPKAno, KEPno, OEBEE -->
+    <feat name="AdpType" value="Post" upos="ADP">1</feat><!-- ilén -->
+    <feat name="Animacy" value="Hum" upos="ADJ,AUX,DET,NUM,PRON,VERB">1620</feat><!-- tíje, tæh, vrítsi, žíne, zǿli, dvamínana, našlíli, imǽli, dvamína, reklíli -->
+    <feat name="Animacy" value="Nhum" upos="ADJ,AUX,DET,PRON,VERB">199</feat><!-- drúgy, to, žýne, inéj, zǿly, izlǽly, vlǽly, drúgyne, kakvý, skópy -->
+    <feat name="Aspect" value="Imp" upos="AUX,NOUN,VERB">12527</feat><!-- je, so, víka, íma, si, trǽbava, som, móža, hódi, právi -->
+    <feat name="Aspect" value="Iter" upos="VERB">13</feat><!-- vórttiti, ídešo, apǿneho, dǽlneho, fsúneho, fáteho, nájdešo, rečášo, vídešo, zasmǽšo -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">8934</feat><!-- reklól, reklála, zøl, atišlól, fáti, vídi, papýtal, vídel, íde, dam -->
+    <feat name="Aspect" value="Prog" upos="AUX,VERB">173</feat><!-- béšo, trǽbavašo, imǽšo, ištǽh, móžašo, iméša, kázavašo, ištǽšo, nósešo, rábatæšo -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">16203</feat><!-- só, go, jé, annó, gi, annók, déne, mó, godíny, sa -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">3244</feat><!-- sí, mú, mí, mu, tí, ji, jí, mi, ti, hi -->
+    <feat name="Case" value="Neut" upos="PRON">1</feat><!-- go -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">8305</feat><!-- toj, tja, ja, ty, to, adín, májka, kutrí, čulǽkon, tíje -->
+    <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PROPN">334</feat><!-- sýne, dǽdo, ma, bubá, bábo, pópe, báte, dóšterø, čárü, žóno -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">8006</feat><!-- kóštono, čulǽkon, kópeløno, žýjen, stáryjen, mómičeno, žýne, žíne, žanána, momána -->
+    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">12192</feat><!-- annó, annók, déne, godíny, adín, bir, májka, mlógo, ennó, rábato -->
+    <feat name="Degree" value="Cmp" upos="ADV,NOUN,NUM">187</feat><!-- pó, húbavo, jennók -->
+    <feat name="Degree" value="Sup" upos="ADV">152</feat><!-- naj -->
+    <feat name="Deixis" value="Prox" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">2025</feat><!-- isǽ, itúzi, kákta, mesecáte, sæ, isazí, itýj, isózek, isózi, kanáta -->
+    <feat name="Deixis" value="Remt" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">7839</feat><!-- itám, kugána, inazí, kákna, kóštono, čulǽkon, kópeløno, žýjen, inagáne, stáryjen -->
+    <feat name="DeixisRef" value="1" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">1010</feat><!-- isǽ, itúzi, sæ, isazí, isózek, isózi, mesecáse, isázi, isézi, isýj -->
+    <feat name="DeixisRef" value="2" upos="ADJ,ADV,DET,NOUN,NUM,PRON,SCONJ,VERB">1015</feat><!-- kákta, mesecáte, itýj, kanáta, sabályjinto, itazí, kadéta, kugáta, kólkoto, tagás -->
+    <feat name="DeixisRef" value="3" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">7839</feat><!-- itám, kugána, inazí, kákna, kóštono, čulǽkon, kópeløno, žýjen, inagáne, stáryjen -->
+    <feat name="Foreign" value="Yes" upos="NOUN,X">25</feat><!-- ejlé, Allahýn, ilé, izní, ješindá, spíti, sto, voítia, Læ, dejlé -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9716</feat><!-- jé, annó, tja, ji, jí, godíny, májka, kóštono, reklála, rábato -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14304</feat><!-- go, mú, annók, toj, reklól, mu, déne, adín, kutrí, tóga -->
+    <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">5055</feat><!-- go, annó, to, mu, mú, inazí, kópeløno, vréme, mómičeno, imǽlo -->
+    <feat name="Mood" value="Imp" upos="NOUN,VERB">593</feat><!-- daj, zǿmij, jála, hájde, vórvij, kážyj, ídij, viš, razbudáj, óstavij -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">14504</feat><!-- je, so, víka, íma, si, trǽbava, som, móža, hódi, právi -->
+    <feat name="Number" value="Coll" upos="NOUN">215</feat><!-- brátje, dečjána, lǘdje, kámeņe, ǧíņeno, cvetjé, dečjá, brátjeno, cvetjéno, kámeņeno -->
+    <feat name="Number" value="Count" upos="ADJ,NOUN">96</feat><!-- déne, hóreha, matóra, méseca, tumafíle, vríse, arkadáše, telifóna, véčera, avéna -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">10611</feat><!-- so, gi, mí, godíny, tri, tíje, sa, dve, tæh, to -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">36658</feat><!-- je, go, mú, jé, annó, annók, toj, mu, mí, víka -->
+    <feat name="Number[psor]" value="Plur" upos="DET,PRON">130</feat><!-- mi, nu, nášoso, tǽhnokne, nášasek, vu, nášono, nášise, nášokse, nášyse -->
+    <feat name="Number[psor]" value="Sing" upos="DET,PRON">748</feat><!-- mu, ji, ti, mi, hi, tvóto, tójnono, tógavokne, ma, tógavono -->
+    <feat name="NumType" value="Card" upos="NUM">1176</feat><!-- annó, tri, annók, dve, dva, dvamínana, dvéne, dvamína, kyrk, beš -->
+    <feat name="NumType" value="Ord" upos="ADJ">77</feat><!-- üčünǧǘno, pórvokne, ikinǧíno, ikinǧí, pórvono, üčünǧǘ, birinǧíto, birinǧí, pórvajen, pórvyjen -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2484</feat><!-- mí, ja, mó, som, móne, mi, nýje, dam, íštom, nú -->
+    <feat name="Person" value="2" upos="AUX,DET,NOUN,PART,PRON,VERB">2414</feat><!-- tí, ty, si, tó, ti, tébe, íšteš, vídiš, daj, vú -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">16261</feat><!-- je, so, go, mú, jé, gi, toj, mu, víka, tja -->
+    <feat name="Polarity" value="Neg" upos="PART,VERB">1271</feat><!-- ne, na, néma, namój, némom, némot, némaš, razbudáj, nemój, ništé -->
+    <feat name="Poss" value="Yes" upos="ADJ,DET,PRON">929</feat><!-- mu, ji, mi, ti, hi, nu, tvóto, tójnono, tógavokne, ma -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">1266</feat><!-- itám, inazí, inagáne, isǽ, inýj, itúzi, tam, inélkus, inéj, sæ -->
+    <feat name="PronType" value="Emp" upos="DET">20</feat><!-- samýj, samí, samý, samó, samíček -->
+    <feat name="PronType" value="Ind" upos="ADV,DET">1605</feat><!-- annó, annók, adín, bir, ennó, nǽko, anná, drúgo, drúgy, ennók -->
+    <feat name="PronType" value="Int" upos="ADV,DET,NOUN,PRON">1074</feat><!-- kaná, kadé, kak, kutrí, kakná, kugá, kólko, kakvó, kakvá, kotrí -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">8426</feat><!-- só, go, sí, mú, jé, mí, gi, toj, mu, tja -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">903</feat><!-- kugána, kákna, žýjen, kadéna, žýne, žíne, kanána, žókne, kákta, žóno -->
+    <feat name="PronType" value="Tot" upos="ADV,DET">289</feat><!-- vrit, vrítsi, síčkono, her, vritsǽh, sǽko, dájma, síčko, vritsǽm, síčkoso -->
+    <feat name="qpm-DegreeMod" value="Dim" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,VERB">492</feat><!-- bábičkana, kópelčeno, kótenceno, kúčenceno, Galínka, kámenkane, kópelče, kutújkono, avenčóno, žábinkana -->
+    <feat name="qpm-DegreeMod" value="Mag" upos="ADJ,NOUN,PROPN">8</feat><!-- Sélište, kupníšte, kámatnišičky, kámenište, nývvišičko, pýlniček, račíštana, ustǽkyne -->
+    <feat name="qpm-PartType" value="Ind" upos="PART">88</feat><!-- nó, jéta, nǽ -->
+    <feat name="qpm-PartType" value="Neg" upos="PART">205</feat><!-- ní -->
+    <feat name="qpm-PartType" value="Tot" upos="PART">39</feat><!-- sǽ, se -->
+    <feat name="Reflex" value="Yes" upos="PRON">2408</feat><!-- só, sí, sa, se, su -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">7213</feat><!-- reklól, reklála, zøl, atišlól, imǽlo, imǽl, papýtal, vídel, fáti, zǿla -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">13282</feat><!-- je, so, víka, íma, si, trǽbava, som, móža, hódi, právi -->
+    <feat name="Variant" value="Short" upos="DET,PRON">4074</feat><!-- go, mú, jé, mí, gi, mu, tí, ji, jí, mó -->
+    <feat name="VerbForm" value="Conv" upos="VERB">14</feat><!-- smǿva, glǿdava, gorǿva, daržóva, fýrkava, rǘkava, spóva, varvǿva, zaklǘčeva, čákava -->
+    <feat name="VerbForm" value="Fin" upos="AUX,NOUN,VERB">15097</feat><!-- je, so, víka, íma, si, trǽbava, som, móža, hódi, právi -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">75</feat><!-- je, pi, vidé, plaká, čúdi, kazá, bra, by, dumí, hadí -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">6461</feat><!-- reklól, reklála, zøl, atišlól, imǽlo, imǽl, papýtal, vídel, zǿla, dal -->
+    <feat name="Voice" value="Act" upos="AUX,NOUN,VERB">21176</feat><!-- je, so, víka, reklól, íma, si, trǽbava, som, móža, reklála -->
+    <feat name="Voice" value="Pass" upos="VERB">470</feat><!-- skrýto, naučéna, umrǽta, naučény, pǽtyjen, zarýtyjen, začúden, platéno, pǽti, umaréno -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="53">
+    <dep name="acl">183</dep>
+    <dep name="acl:relcl">56</dep>
+    <dep name="advcl">1843</dep>
+    <dep name="advmod">7010</dep>
+    <dep name="advmod:emph">557</dep>
+    <dep name="advmod:mode">1</dep>
+    <dep name="amod">2619</dep>
+    <dep name="amod:att">2</dep>
+    <dep name="appos">184</dep>
+    <dep name="aux">1453</dep>
+    <dep name="aux:neg">316</dep>
+    <dep name="aux:pass">54</dep>
+    <dep name="case">4457</dep>
+    <dep name="cc">3952</dep>
+    <dep name="cc:preconj">21</dep>
+    <dep name="ccomp">557</dep>
+    <dep name="compound">195</dep>
+    <dep name="conj">6390</dep>
+    <dep name="cop">2132</dep>
+    <dep name="csubj">55</dep>
+    <dep name="dep">445</dep>
+    <dep name="det">1035</dep>
+    <dep name="discourse">975</dep>
+    <dep name="expl">149</dep>
+    <dep name="expl:pass">6</dep>
+    <dep name="expl:pv">299</dep>
+    <dep name="fixed">178</dep>
+    <dep name="flat">61</dep>
+    <dep name="flat:foreign">612</dep>
+    <dep name="flat:name">15</dep>
+    <dep name="goeswith">9</dep>
+    <dep name="iobj">167</dep>
+    <dep name="list">2</dep>
+    <dep name="mark">4223</dep>
+    <dep name="mark:prt">1</dep>
+    <dep name="nmod">2158</dep>
+    <dep name="nmod:att">2</dep>
+    <dep name="nmod:obl">1</dep>
+    <dep name="nmod:poss">384</dep>
+    <dep name="nsubj">7082</dep>
+    <dep name="nsubj:pass">30</dep>
+    <dep name="nummod">542</dep>
+    <dep name="nummod:gov">3</dep>
+    <dep name="obj">7031</dep>
+    <dep name="obl">4747</dep>
+    <dep name="obl:arg">36</dep>
+    <dep name="orphan">145</dep>
+    <dep name="parataxis">1259</dep>
+    <dep name="punct">16137</dep>
+    <dep name="reparandum">5</dep>
+    <dep name="root">6350</dep>
+    <dep name="vocative">324</dep>
+    <dep name="xcomp">332</dep>
+  </deps>
+</treebank>
