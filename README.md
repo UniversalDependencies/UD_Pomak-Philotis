@@ -42,6 +42,6 @@ Features: automatic with corrections
 Relations: converted from manual
 Contributors: Karahodja Ritvan: Stamou Vivian;   Markantonatou Stella
 Contributing: -
-Contact: marks@athenarc.gr, ritvank@gmail.com
+Contact: marks@athenarc.gr
 ===============================================================================
 </pre>
