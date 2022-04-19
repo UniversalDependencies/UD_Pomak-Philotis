@@ -29,3 +29,19 @@ efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicola
 
 - Train/dev/test sets: 5080/635/635 sentences, 69287/9085/8410 tokens
 
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: 
+License: 
+Includes text: yes
+Genre: 
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: 
+Contributing: elsewhere
+Contact: 
+===============================================================================
+</pre>
