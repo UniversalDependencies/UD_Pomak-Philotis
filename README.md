@@ -37,11 +37,11 @@ Includes text: yes
 Genre: news grammar-examples poetry fiction
 Lemmas: automatic with corrections
 UPOS: automatic with corrections
-XPOS: -
+XPOS: not available
 Features: automatic with corrections
 Relations: converted from manual
 Contributors: Karahodja Ritvan: Stamou Vivian;   Markantonatou Stella
-Contributing: -
+Contributing: elsewhere
 Contact: marks@athenarc.gr
 ===============================================================================
 </pre>
