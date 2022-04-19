@@ -31,17 +31,17 @@ efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicola
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: 
-License: 
+Data available since: UD v1.1
+License: CC BY-NC-SA 3.0
 Includes text: yes
-Genre: 
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
+Genre: news grammar-examples poetry fiction
+Lemmas: automatic with corrections
+UPOS: automatic with corrections
+XPOS: -
+Features: automatic with corrections
 Relations: converted from manual
-Contributors: 
-Contributing: elsewhere
-Contact: 
+Contributors: Karahodja Ritvan: Stamou Vivian;   Markantonatou Stella
+Contributing: -
+Contact: marks@athenarc.gr, ritvank@gmail.com
 ===============================================================================
 </pre>
