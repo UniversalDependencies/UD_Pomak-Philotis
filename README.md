@@ -29,6 +29,13 @@ efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicola
 
 - Train/dev/test sets: 5080/635/635 sentences, 69287/9085/8410 tokens
 
+
+# Changelog
+
+
+* 2022-04-12 v2.10
+  * Initial release of golden morphologically annoated corpus
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.10
