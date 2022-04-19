@@ -31,7 +31,7 @@ efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicola
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v1.1
+Data available since: UD v2.10
 License: CC BY-NC-SA 3.0
 Includes text: yes
 Genre: news grammar-examples poetry fiction
