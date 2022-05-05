@@ -12,18 +12,18 @@ Commons Attribution-NonCommercial-ShareAlike, CC BY-NC-SA
 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 The morphological annotation of the Pomak UD treebank
-was originally created by applying the morphological database Rodopsky to the texts and then by extensive manual correction by two annotators. 
+was originally created by applying the morphological database Rodopsky to the texts and then by extensive manual correction by two annotators.
 The syntactic annotation of the 1.1
 release was generated automatically using a Bulgarian model. A detailed revision of the automatic syntactic annotation is due at the end of 2022.
 
 # Acknowledgments
 
 We wish to thank all contributors to the original annotation
-efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicolaos Constantinides. Panagiotis Krimpas supported the annotation with expertise in Slavic languages and Stella Markantonatou with expertise in formal grammatical frameworks. Nicolaos Kokkas contributed to the collection of Pomak texts. 
+efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicolaos Constantinides. Panagiotis Krimpas supported the annotation with expertise in Slavic languages and Stella Markantonatou with expertise in formal grammatical frameworks. Nicolaos Kokkas contributed to the collection of Pomak texts.
 
 ## References
 
-* Karahóǧa, R. Krimpas, P., Stamou, V., Arampatzakis, V., Karamatskos, D., Sevetlidis, V.,  Constantinides, N., Kokkas, N., Pavlidis, G., Markantonatou,S. (2022). Morphologically annotated corpora of Pomak. In Proceedings of the 5th Workshop on the Use of Computational Methods in the Study of Endangered Languages: The Use of Computational Methods in the Study of Endangered Languages. Association for Computational Linguistics. Dublin, May 26-27, 2022. 
+* Karahóǧa, R. Krimpas, P., Stamou, V., Arampatzakis, V., Karamatskos, D., Sevetlidis, V.,  Constantinides, N., Kokkas, N., Pavlidis, G., Markantonatou,S. (2022). Morphologically annotated corpora of Pomak. In Proceedings of the 5th Workshop on the Use of Computational Methods in the Study of Endangered Languages: The Use of Computational Methods in the Study of Endangered Languages. Association for Computational Linguistics. Dublin, May 26-27, 2022.
 
 # Data splits
 
@@ -47,7 +47,7 @@ UPOS: automatic with corrections
 XPOS: not available
 Features: automatic with corrections
 Relations: converted from manual
-Contributors: Karahodja Ritvan: Stamou Vivian; Markantonatou Stella
+Contributors: Karahodja, Ritvan; Stamou, Vivian; Markantonatou, Stella
 Contributing: elsewhere
 Contact: marks@athenarc.gr
 ===============================================================================
