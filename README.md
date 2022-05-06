@@ -47,7 +47,7 @@ UPOS: automatic with corrections
 XPOS: not available
 Features: automatic with corrections
 Relations: converted from manual
-Contributors: Karahodja, Ritvan; Stamou, Vivian; Markantonatou, Stella
+Contributors: Karahóǧa, Ritvan; Stamou, Vivian; Markantonatou, Stella
 Contributing: elsewhere
 Contact: marks@athenarc.gr
 ===============================================================================
