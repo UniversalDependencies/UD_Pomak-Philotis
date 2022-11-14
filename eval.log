@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Pomak-Philotis:
-commit 821d38aea7c878e9b284ba606ab926726ffcc968
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 12:53:23 2022 +0200
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Pomak-Philotis:
+commit 1a28f4397e1b40bc747c25af0a46b942be335962
+Merge: 166ae3b c7ed2c7
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 86780 of 86780 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.92675236074041.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,8 +29,13 @@ validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-dev.conllu
 validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-test.conllu
 *** PASSED ***
 validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 35437 Sent RITVAN_JÚDY_s-191 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 53116 Sent RITVAN_VAMPÍRE_s-148 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 59087 Sent RITVAN_VAMPÍRE_s-30 Node 1]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+Syntax errors: 3
+*** FAILED *** with 3 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
 (weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
@@ -39,6 +44,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.914035492048859) = 0.281241689861187
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.614849771771684) * (availability=1) * (validity=1) = 0.614849771771684
-STARS = 3
-UD_Pomak-Philotis	0.614849771771684	3
+(TOTAL score=0.614849771771684) * (availability=1) * (validity=0.01) = 0.00614849771771684
+STARS = 0
+UD_Pomak-Philotis	0.00614849771771684	0
