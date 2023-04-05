@@ -3339,18 +3339,6 @@
 10	aré	órom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	xcomp	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = RODOPSKY_ΣΑΝ_ΤΟΝ_ΚΕΡΕΜ_s-4
-# text = Fýrkyjte küršǘnese da stapíme vú rǘkom...
-1	Fýrkyjte	fýrkom	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	6	ccomp	_	_
-2	küršǘnese	küršǘn	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	1	obj	_	_
-3	da	da	AUX	_	_	4	mark	_	_
-4	stapíme	stópem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
-5	vú	ja	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
-6	rǘkom	rǘkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	6	punct	_	_
-
 # sent_id = XANTHINET-NATPRESH_2016-04-08-6_s-3
 # text = Mlógo žóny so ála izgávet óti zafátot da právet za ráno žýne majené trǽbava, durgý so éšte ne fátaly inakvóne karkíno i za to go zaftásavot durgý je éšte ne stánalo parátikono.
 1	Mlógo	mlógo	ADJ	_	Definite=Ind	2	amod	_	_
