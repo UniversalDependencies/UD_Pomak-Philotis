@@ -1120,7 +1120,7 @@
 # text = Alí-Ají sas Iséna otišlíli na áva.
 1	Alí	Alí	PROPN	_	Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
-3	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	1	flat:name	_	_
+3	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	1	flat	_	_
 4	sas	sas	ADP	_	_	5	advmod	_	_
 5	Iséna	Isén	NOUN	_	Case=Acc|Gender=Masc	6	nsubj	_	_
 6	otišlíli	ídom	VERB	_	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -1317,7 +1317,7 @@
 # sent_id = RITVAN_SKÓPYJEN_KÁMEN_s-50
 # text = Dǽdo Isén je bárnal faf pázahono mu, izvádil je kámenkane i dal mú go je.
 1	Dǽdo	dǽdo	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	_
+2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	_
 3	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	bárnal	bárnom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	faf	faf	ADP	_	_	6	case	_	_
@@ -2866,7 +2866,7 @@
 # sent_id = RITVAN_SKÓPYJEN_KÁMEN_s-52
 # text = Dǽdo Isén mú je kázal kak i pribrál sí je kámenkane.
 1	Dǽdo	dǽdo	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	_
+2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	_
 3	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
 4	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	kázal	kážom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -5852,7 +5852,7 @@
 18	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
 19	pák	pak	ADV	_	_	20	advmod	_	_
 20	Vangélis	Vangélis	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	15	conj	_	_
-21	Meimarákis	Meimarákis	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	20	flat:name	_	SpaceAfter=No
+21	Meimarákis	Meimarákis	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	20	flat	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΟΙ_ΔΥΟ_ΣΤΟΙΧΕΙΩΜΕΝΟΙ_ΜΥΛΟΙ_s-16
@@ -8609,7 +8609,7 @@
 6	na	na	ADP	_	_	7	case	_	_
 7	nagóto	nagá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=2|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
-9	ma	májka	NOUN	_	Case=Voc|Definite=Ind|Gender=Fem|Number=Sing	5	flat:name	_	SpaceAfter=No
+9	ma	májka	NOUN	_	Case=Voc|Definite=Ind|Gender=Fem|Number=Sing	5	flat	_	SpaceAfter=No
 10	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	papýtala	pópytom	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -9918,7 +9918,7 @@
 2	Óti	óti	SCONJ	_	_	4	mark	_	_
 3	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	Mára	Mára	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
-5	Pepelívka	Pepelívka	PROPN	_	Case=Nom|Definite=Ind|DegreeModQpm=Dim|Gender=Fem|Number=Sing	4	flat:name	_	SpaceAfter=No
+5	Pepelívka	Pepelívka	PROPN	_	Case=Nom|Definite=Ind|DegreeModQpm=Dim|Gender=Fem|Number=Sing	4	flat	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_Ο_ΝΑΣΡΑΝΤΙΝ_ΠΗΓΕ_ΝΑ_ΖΗΤΗΣΕΙ_ΔΟΥΛΕΙΑ_s-18
