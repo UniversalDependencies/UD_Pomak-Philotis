@@ -1,22 +1,22 @@
 # sent_id = RITVAN_VAMPÍRE_s-17
 # text = Sas čórnoso óko ja vídem síčkono, žóno stánava gündǘs, pak sas bǽloso - véčer.
-1 Sas sas ADP _ _ 3 case _ _
-2 čórnoso čóran ADJ _ Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing 3 amod _ _
-3 óko aká NOUN _ Case=Acc|Definite=Ind|Gender=Fem|Number=Sing 5 obl _ _
-4 ja ja PRON _ Case=Nom|Number=Sing|Person=1|PronType=Prs 5 nsubj _ _
-5 vídem vídem VERB _ Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act 0 root _ _
-6 síčkono síčko PRON _ Definite=Def|Deixis=Remt|PronType=Tot 5 obj _ SpaceAfter=No
-7 , , PUNCT _ _ 5 punct _ _
-8 žóno žýjes DET _ Case=Nom|Definite=Def|Deixis=Remt|Gender=Neut|Number=Sing|PronType=Rel 9 nsubj _ _
-9 stánava stánavom VERB _ Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act 5 ccomp _ _
-10 gündǘs gündǘs ADV _ _ 9 advmod _ SpaceAfter=No
-11 , , PUNCT _ _ 5 punct _ _
-12 pak pak SCONJ _ _ 14 cc _ _
-13 sas sas ADP _ _ 14 case _ _
-14 bǽloso bæl ADJ _ Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing 9 obl _ _
-15 - - PUNCT _ _ 14 punct _ _
-16 véčer véčer ADV _ _ 14 advmod _ SpaceAfter=No
-17 . . PUNCT _ _ 5 punct _ _
+1	Sas	sas	ADP	_	_	3	case	_	_
+2	čórnoso	čóran	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	3	amod	_	_
+3	óko	aká	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	_
+4	ja	ja	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	vídem	vídem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	síčkono	síčko	PRON	_	Definite=Def|Deixis=Remt|PronType=Tot	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	žóno	žýjes	DET	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Neut|Number=Sing|PronType=Rel	9	nsubj	_	_
+9	stánava	stánavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+10	gündǘs	gündǘs	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	pak	pak	SCONJ	_	_	13	mark	_	_
+13	sas	sas	ADP	_	_	14	case	_	_
+14	bǽloso	bæl	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	9	obl:lmod	_	_
+15	-	-	PUNCT	_	_	16	punct	_	_
+16	véčer	véčer	ADV	_	_	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΑΥΤΟΣ_ΠΟΥ_ΕΨΗΝΕ_ΚΑΦΕ_ΕΧΟΝΤΑΣ_ΚΡΕΜΑΣΕΙ_ΤΟ_ΜΠΡΙΚΙ_ΣΤΟ_ΤΑΒΑΝΙ_s-3
 # text = - Katrí móža bu akšám da asóvne na mineróno da ne vídeva ógne?
