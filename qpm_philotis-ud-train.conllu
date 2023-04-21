@@ -59,13 +59,13 @@
 
 # sent_id = XANTHINET-NATPRESH_2016-04-10-2_s-2
 # text = Annók čulǽka na 65 godíny i annó žóno na 35 godíny fáti faf Ǧumágün na 8 mesecáte na pláden astinomíjena faf Komotiní óti so imǽli hašíše i žýne ǧugáry so pres fóro.
-1	Annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	nummod	_	_
+1	Annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	NUM	_	_
 2	čulǽka	čulǽk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	_
 3	na	na	ADP	_	_	5	case	_	_
 4	65	65	NUM	_	Definite=Ind|Number=Plur|NumType=Card	5	nummod	_	_
 5	godíny	godína	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	nmod:tmod	_	_
 6	i	i	CCONJ	_	_	8	cc	_	_
-7	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	8	nummod	_	_
+7	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	8	NUM	_	_
 8	žóno	žaná	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	conj	_	_
 9	na	na	ADP	_	_	11	case	_	_
 10	35	35	NUM	_	Definite=Ind|Number=Plur|NumType=Card	11	nummod	_	_
@@ -1011,7 +1011,7 @@
 # sent_id = RODOPSKY_ΜΑΡΑ_Η_ΣΤΑΧΤΟΠΟΥΤΑ_s-4
 # text = Faf annók vakýta je Mára reklála májci ji:
 1	Faf	faf	ADP	_	_	3	case	_	_
-2	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	nummod	_	_
+2	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	NUM	_	_
 3	vakýta	vakýt	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl:tmod	_	_
 4	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 5	Mára	Mára	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -1418,7 +1418,7 @@
 5	«	«	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Stóri	stórem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 7	mí	ja	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
-8	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	nummod	_	_
+8	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	NUM	_	_
 9	líra	líra	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	nimó	namój	PART	_	Number=Sing|Person=2|Polarity=Neg	13	fixed	_	_
@@ -1761,7 +1761,7 @@
 1	Adín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	kabádaji	kabádaji	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	čúval	čúvom	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	nummod	_	_
+4	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	NUM	_	_
 5	vadeníco	vadeníca	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	_
 6	af	faf	ADP	_	_	8	case	_	_
 7	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
@@ -2058,7 +2058,7 @@
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	grábnala	grábnom	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
 14	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
-15	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	nummod	_	_
+15	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	NUM	_	_
 16	dekeníka	dekeník	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	_
 17	i	i	CCONJ	_	_	18	cc	_	_
 18	zǿla	zǿmom	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	conj	_	_
@@ -2086,7 +2086,7 @@
 2	kóštono	kóšta	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	4	obl:tmod	_	_
 3	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	žyvála	žývom	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-5	anná	adín	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	nummod	_	_
+5	anná	adín	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	NUM	_	_
 6	hanǽ	hanǽ	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_
 7	sas	sas	ADP	_	_	9	case	_	_
 8	tri	tri	NUM	_	Definite=Ind|Number=Plur|NumType=Card	9	nummod	_	_
@@ -2286,7 +2286,7 @@
 13	našlólo	nájdom	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
 14	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 15	jálnys	jálnys	ADV	_	_	17	advmod:emph	_	_
-16	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	17	nummod	_	_
+16	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	17	NUM	_	_
 17	ófco	afcá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -2351,7 +2351,7 @@
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
 3	da	da	AUX	_	_	4	aux	_	_
 4	zjóme	zǿmom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	_
-5	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	nummod	_	_
+5	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	NUM	_	_
 6	dórvo	dórvo	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
 7	da	da	AUX	_	_	9	aux	_	_
 8	go	ja	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
@@ -2483,7 +2483,7 @@
 8	rakávyte	rakáf	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=2|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	izpéka	ízpečem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
-11	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	nummod	_	_
+11	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	NUM	_	_
 12	klína	klin	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	7	punct	_	_
 14	zaklá	zákolem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
@@ -2749,7 +2749,7 @@
 8	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 9	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	obj	_	_
 10	af	faf	ADP	_	_	12	case	_	_
-11	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	nummod	_	_
+11	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	NUM	_	_
 12	padínko	padína	NOUN	_	Case=Acc|Definite=Ind|DegreeModQpm=Dim|Gender=Fem|Number=Sing	7	obl	_	_
 13	as	sas	ADP	_	_	15	case	_	_
 14	dve	dve	NUM	_	Definite=Ind|Number=Plur|NumType=Card	15	nummod	_	_
@@ -2774,7 +2774,7 @@
 12	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 13	na	na	ADP	_	_	14	case	_	_
 14	pot	pot	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obl:lmod	_	_
-15	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	nummod	_	_
+15	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	NUM	_	_
 16	jabanǧíjina	jabanǧíjin	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -3008,7 +3008,7 @@
 5	véčera	véčer	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obl:tmod	_	_
 6	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	vídel	vídem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-8	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	nummod	_	_
+8	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	NUM	_	_
 9	strášno	strášan	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	_
 10	i	i	CCONJ	_	_	12	cc	_	_
 11	grózno	grózan	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	amod	_	_
@@ -3070,7 +3070,7 @@
 # text = "Sas isélkus čeníco", so reklí "še prekárame bajá vréme".
 1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 2	Sas	sas	ADP	_	_	4	case	_	_
-3	isélkus	isélkus	DET	_	Deixis=Prox|DeixisRef=1|PronType=Dem	4	nummod	_	_
+3	isélkus	isélkus	DET	_	Deixis=Prox|DeixisRef=1|PronType=Dem	4	NUM	_	_
 4	čeníco	čeníca	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -3754,7 +3754,7 @@
 19	býlo	býdom	AUX	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	aux	_	_
 20	astánalo	óstanom	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
 21	i	i	CCONJ	_	_	23	cc	_	_
-22	annó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	nummod	_	_
+22	annó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	NUM	_	_
 23	drúgo	drug	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	obj	_	_
 24	at	at	ADP	_	_	26	case	_	_
 25	pórvono	porv	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing|NumType=Ord	26	nummod	_	_
@@ -3846,7 +3846,7 @@
 9	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 10	atpréš	atpréš	ADP	_	_	11	case	_	_
 11	tæh	ja	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl	_	_
-12	adín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	13	nummod	_	_
+12	adín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	13	NUM	_	_
 13	drákulos	drákuloz	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	_
 14	i	i	CCONJ	_	_	15	cc	_	_
 15	razrǘkal	rázrükom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
@@ -3944,7 +3944,7 @@
 
 # sent_id = XANTHINET-NATPRESH_2016-05-07-2_s-2
 # text = Annók čulǽka na 33 godíny fáti faf Ǧumágün na 6 mesecáte na pláden faf Kavála astinomíjena óti je imǽl za predávaņe mlógo hašíše.
-1	Annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	nummod	_	_
+1	Annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	NUM	_	_
 2	čulǽka	čulǽk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	_
 3	na	na	ADP	_	_	5	case	_	_
 4	33	33	NUM	_	Definite=Ind|Number=Plur|NumType=Card	5	nummod	_	_
@@ -3979,7 +3979,7 @@
 6	pot	pot	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl:lmod	_	_
 7	srǿšnal	srǿšnom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-9	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	nummod	_	_
+9	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	NUM	_	_
 10	kópelø	kópele	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -4054,7 +4054,7 @@
 6	enná	adín	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
 7	májka	májka	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	_
 8	iméšo	ímom	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	nummod	_	_
+9	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	NUM	_	_
 10	déte	déte	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -4411,11 +4411,11 @@
 7	séla	sélo	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	8	obl:lmod	_	_
 8	ráda	rádom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	sa	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_
-10	ennó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	nummod	_	_
+10	ennó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	NUM	_	_
 11	mósko	móskyj	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	amod	_	_
 12	déte	déte	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
 13	i	i	CCONJ	_	_	16	cc	_	_
-14	ennó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	nummod	_	_
+14	ennó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	NUM	_	_
 15	žóncko	žónckyj	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	amod	_	_
 16	déte	déte	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
@@ -4680,7 +4680,7 @@
 10	gi	ja	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
 11	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	parǘkal	pórükom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
-13	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	14	nummod	_	_
+13	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	14	NUM	_	_
 14	déne	den	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	nmod:tmod	_	_
 15	i	i	CCONJ	_	_	16	cc	_	_
 16	reklól	réčem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	_
@@ -5925,7 +5925,7 @@
 8	i	i	CCONJ	_	_	9	cc	_	_
 9	atvóril	ótvarem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
 10	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
-11	anný	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	12	nummod	_	_
+11	anný	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	12	NUM	_	_
 12	vratá	vratá	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	_
 13	faf	faf	ADP	_	_	14	case	_	_
 14	júrvono	júrva	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	9	obl:lmod	_	SpaceAfter=No
@@ -7883,7 +7883,7 @@
 
 # sent_id = XANTHINET-NATPRESH_2016-04-24-1_s-2
 # text = Annók čulǽka na 42 godíny ad Aleksandrúpoli fáti astinomíjena faf Ǧumágün óti je tri mésecy napréš ukrál annók matóra.
-1	Annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	nummod	_	_
+1	Annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	NUM	_	_
 2	čulǽka	čulǽk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	_
 3	na	na	ADP	_	_	5	case	_	_
 4	42	42	NUM	_	Definite=Ind|Number=Plur|NumType=Card	5	nummod	_	_
@@ -8226,7 +8226,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	dójde	dójdom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	mí	ja	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
-8	anná	adín	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	nummod	_	_
+8	anná	adín	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	NUM	_	_
 9	jábalka	jábalka	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	_
 10	na	na	ADP	_	_	11	case	_	_
 11	vadenícono	vadeníca	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	6	obl:lmod	_	_
@@ -8353,7 +8353,7 @@
 5	péčem	péčem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 6	ja	ja	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 7	zaradí	zaradí	ADP	_	_	10	case	_	_
-8	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	10	nummod	_	_
+8	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	10	NUM	_	_
 9	tembélivo	tembéliv	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	10	amod	_	_
 10	póstelko	póstelka	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -8457,7 +8457,7 @@
 7	da	da	ADP	_	_	6	fixed	_	_
 8	gábrane	gábar	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	7	case	_	_
 9	varhú	varhú	ADP	_	_	11	case	_	_
-10	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	nummod	_	_
+10	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	NUM	_	_
 11	kámenæ	kámen	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -8707,7 +8707,7 @@
 14	da	da	AUX	_	_	16	aux	_	_
 15	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
 16	dadót	dam	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	xcomp	_	_
-17	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	18	nummod	_	_
+17	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	18	NUM	_	_
 18	sáza	saz	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -8943,7 +8943,7 @@
 7	kúpiš	kúpem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
 8	i	i	CCONJ	_	_	9	cc	_	_
 9	móne	ja	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
-10	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	nummod	_	_
+10	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	NUM	_	_
 11	svírko	svírka	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 12	»	»	PUNCT	_	_	2	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -9032,10 +9032,10 @@
 11	faf	faf	ADP	_	_	12	case	_	_
 12	kolíbono	kolíba	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	15	obl:lmod	_	_
 13	-	-	PUNCT	_	_	1	punct	_	_
-14	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	nummod	_	_
+14	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	NUM	_	_
 15	kóte	kóte	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	_
 16	i	i	CCONJ	_	_	18	cc	_	_
-17	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	nummod	_	_
+17	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	NUM	_	_
 18	kukóško	kukóška	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -9349,7 +9349,7 @@
 1	Izkopál	ízkopom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
 3	čulǽkon	čulǽk	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	1	nsubj	_	_
-4	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	nummod	_	_
+4	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	NUM	_	_
 5	rópko	rópka	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -10273,7 +10273,7 @@
 # sent_id = ΚΟΚΚΑΣ_Ν_ΟΙ_ΔΥΟ_ΣΤΟΙΧΕΙΩΜΕΝΟΙ_ΜΥΛΟΙ_s-7
 # text = Ímat edín drug düšmanlýka, pak detíne ne znájet.
 1	Ímat	ímom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	edín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	nummod	_	_
+2	edín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	NUM	_	_
 3	drug	drug	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
 4	düšmanlýka	düšmanlýk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -10468,7 +10468,7 @@
 25	kúpil	kúpem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	conj	_	_
 26	jí	ja	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
 27	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
-28	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	29	nummod	_	_
+28	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	29	NUM	_	_
 29	kóne	kon	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	25	obj	_	_
 30	i	i	CCONJ	_	_	32	cc	_	_
 31	annók	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	32	nummod	_	_
@@ -10604,7 +10604,7 @@
 7	na	na	ADP	_	_	9	advmod	_	_
 8	annó	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	7	case	_	_
 9	sprǽli	sprøm	VERB	_	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-10	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	nummod	_	_
+10	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	NUM	_	_
 11	žóno	žaná	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	_
 12	na	na	ADP	_	_	14	case	_	_
 13	24	24	NUM	_	Definite=Ind|Number=Plur|NumType=Card	14	nummod	_	_
@@ -11164,7 +11164,7 @@
 10	pak	pak	SCONJ	_	_	14	cc	_	_
 11	faf	faf	ADP	_	_	12	case	_	_
 12	lǽvono	læv	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	14	obl	_	_
-13	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	14	nummod	_	_
+13	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	14	NUM	_	_
 14	paníco	paníca	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	orphan	_	_
 15	i	i	CCONJ	_	_	16	cc	_	_
 16	navél	návedom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	_
@@ -11389,7 +11389,7 @@
 17	še	še	AUX	_	_	19	aux	_	_
 18	tí	ja	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	19	iobj	_	_
 19	dam	dam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_
-20	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	nummod	_	_
+20	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	NUM	_	_
 21	pétla	petél	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	_
 22	i	i	CCONJ	_	_	23	cc	_	_
 23	čúješ	čújem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
@@ -11447,7 +11447,7 @@
 
 # sent_id = XANTHINET-NATPRESH_2010-05-17_s-30
 # text = Mlózi stári i samí insán čákot ad žǽhne rábatøt faf "voítia sto spíti" da mí stóret rábatyne faf kóštono, da gi atkárot na annók daktóra íli da mí kúpet lækovéne.
-1	Mlózi	mlózi	DET	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	nummod	_	_
+1	Mlózi	mlózi	DET	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	NUM	_	_
 2	stári	star	ADJ	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	5	amod	_	_
 3	i	i	CCONJ	_	_	4	cc	_	_
 4	samí	samýj	DET	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	_
@@ -11509,7 +11509,7 @@
 8	annélo	ónnesom	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 9	u	u	ADP	_	_	10	case	_	_
 10	tæh	ja	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	obl	_	_
-11	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	nummod	_	_
+11	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	NUM	_	_
 12	kukóško	kukóška	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	8	punct	_	_
 14	svaríla	svárem	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
@@ -11544,7 +11544,7 @@
 # text = Izkopáli so annó rópko i spúsnali so žývokne čulǽka uvótre.
 1	Izkopáli	ízkopom	VERB	_	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	so	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
-3	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	nummod	_	_
+3	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	NUM	_	_
 4	rópko	rópka	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	_
 5	i	i	CCONJ	_	_	6	cc	_	_
 6	spúsnali	spúsnom	VERB	_	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
@@ -11647,7 +11647,7 @@
 3	ad	ad	ADP	_	_	4	case	_	_
 4	hórehane	hóreh	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	5	obl	_	_
 5	izlǽlo	ízlezom	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-6	annó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	nummod	_	_
+6	annó	adín	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	NUM	_	_
 7	mómiče	mómiče	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	_
 8	-	-	PUNCT	_	_	5	punct	_	_
 9	inélkus	isélkus	DET	_	Deixis=Remt|PronType=Dem	10	det	_	_
@@ -11946,7 +11946,7 @@
 # text = Razvartǽl je annó stáro žóno i zøl jí je annók altónena pórstenæ i annó altóneno verúgo
 1	Razvartǽl	rázvartem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
-3	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	nummod	_	_
+3	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	5	NUM	_	_
 4	stáro	star	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	amod	_	_
 5	žóno	žaná	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	_
 6	i	i	CCONJ	_	_	7	cc	_	_
@@ -12340,7 +12340,7 @@
 3	so	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	avǧíjene	avǧí	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	fírili	fírem	VERB	_	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-6	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	nummod	_	_
+6	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	NUM	_	_
 7	sórno	sarná	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -12662,7 +12662,7 @@
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	Še	še	AUX	_	_	3	aux	_	_
 3	srǿšneš	srǿšnom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	edín	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	nummod	_	_
+4	edín	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	NUM	_	_
 5	bunár	bunár	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -12756,7 +12756,7 @@
 12	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 13	alá	alá	CCONJ	_	_	24	cc	_	_
 14	za	za	ADP	_	_	16	case	_	_
-15	sǽko	sǽko	DET	_	PronType=Tot	16	nummod	_	_
+15	sǽko	sǽko	DET	_	PronType=Tot	16	NUM	_	_
 16	annó	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card	24	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	24	punct	_	_
 18	kanána	kanása	PRON	_	Deixis=Remt|PronType=Rel	20	obj	_	_
@@ -13112,7 +13112,7 @@
 18	ne	ne	PART	_	Polarity=Neg	19	advmod	_	_
 19	klal	kládom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	_
 20	níta	níta	CCONJ	_	_	21	advmod:emph	_	_
-21	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	nummod	_	_
+21	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	NUM	_	_
 22	síto	síto	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	_
 23	pres	prez	ADP	_	_	24	case	_	_
 24	krájene	kraj	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
@@ -13122,7 +13122,7 @@
 # text = Paminól je adín rybárin sas sertmǿ i zapýtal gi je:
 1	Paminól	póminom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
-3	adín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	nummod	_	_
+3	adín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	NUM	_	_
 4	rybárin	rybárin	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nsubj	_	_
 5	sas	sas	ADP	_	_	6	case	_	_
 6	sertmǿ	sertmǽ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	_
@@ -13345,7 +13345,7 @@
 5	vídeli	vídem	VERB	_	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	da	da	AUX	_	_	7	aux	_	_
 7	šýjkot	šýjkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
-8	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	nummod	_	_
+8	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	NUM	_	_
 9	matóra	matór	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	_
 10	i	i	CCONJ	_	_	14	cc	_	_
 11	ad	ad	ADP	_	_	14	advmod	_	_
@@ -13517,7 +13517,7 @@
 14	11	11	NUM	_	Definite=Ind|Number=Plur|NumType=Card	15	nummod	_	_
 15	kišǽh	kiší	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	_
 16	ad	ad	ADP	_	_	18	case	_	_
-17	drúgy	drug	DET	_	Animacy=Nhum|Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	18	nummod	_	_
+17	drúgy	drug	DET	_	Animacy=Nhum|Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	18	NUM	_	_
 18	hüküméte	hükümét	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	15	obl:lmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	2	punct	_	_
 20	7	7	NUM	_	Definite=Ind|Number=Plur|NumType=Card	21	nummod	_	_
@@ -13851,7 +13851,7 @@
 4	godíny	godína	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obl:tmod	_	_
 5	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	ukrálo	úkradom	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-7	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	nummod	_	_
+7	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	NUM	_	_
 8	stára	star	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	_
 9	na	na	ADP	_	_	11	case	_	_
 10	88	88	NUM	_	Definite=Ind|Number=Plur|NumType=Card	11	nummod	_	_
@@ -14138,7 +14138,7 @@
 7	napréš	napréš	ADV	_	_	8	advmod	_	_
 8	pamína	pamínom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 9	prez	prez	ADP	_	_	12	case	_	_
-10	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	nummod	_	_
+10	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	12	NUM	_	_
 11	gulǽmo	gulǽm	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	amod	_	_
 12	barčíno	barčína	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	8	obl:lmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
@@ -14439,7 +14439,7 @@
 16	faf	faf	ADP	_	_	17	case	_	_
 17	kóštono	kóšta	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	15	obl:lmod	_	_
 18	sas	sas	ADP	_	_	22	case	_	_
-19	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	nummod	_	_
+19	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	NUM	_	_
 20	ad	ad	ADP	_	_	21	case	_	_
 21	žýne	žýjes	DET	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Neut|Number=Plur|PronType=Rel	24	obl	_	_
 22	kúčeta	kúče	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	15	obl	_	_
@@ -14571,7 +14571,7 @@
 1	Azám	azám	ADV	_	_	3	advmod	_	_
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	vídela	vídem	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	nummod	_	_
+4	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	NUM	_	_
 5	górne	górne	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	_
 6	sas	sas	ADP	_	_	8	case	_	_
 7	lǘto	lüt	ADJ	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	8	amod	_	_
@@ -14792,7 +14792,7 @@
 # text = Balykčíjon fáta ennó rýbo, právi go (na) parčé da go izedé kóteno i kúčeno.
 1	Balykčíjon	balykčí	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	fáta	fátom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	nummod	_	_
+3	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	NUM	_	_
 4	rýbo	rybá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	právi	právem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -14853,7 +14853,7 @@
 10	mu	moj	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	_
 12	na	na	ADP	_	_	14	case	_	_
-13	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	14	nummod	_	_
+13	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	14	NUM	_	_
 14	palǽno	palǽna	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	_
 15	pri	pri	ADP	_	_	16	case	_	_
 16	goróno	gorá	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	18	obl	_	_
@@ -14884,7 +14884,7 @@
 1	Čulǽkon	čulǽk	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	káral	károm	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	nummod	_	_
+4	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	NUM	_	_
 5	tumafíle	tomofíl	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	_
 6	sas	sas	ADP	_	_	8	case	_	_
 7	bulgárcky	Bulgárckyj	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	8	amod	_	_
@@ -15008,7 +15008,7 @@
 6	i	i	CCONJ	_	_	7	cc	_	_
 7	vídil	vídem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
 8	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-9	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	nummod	_	_
+9	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	NUM	_	_
 10	défe	def	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	_
 11	sas	sas	ADP	_	_	13	case	_	_
 12	jedí	jedí	NUM	_	Definite=Ind|Number=Plur|NumType=Card	13	nummod	_	_
