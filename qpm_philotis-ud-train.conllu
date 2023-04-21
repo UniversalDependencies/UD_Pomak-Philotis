@@ -14563,7 +14563,7 @@
 19	dašlól	dójdom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	conj	_	_
 20	ad	ad	ADP	_	_	22	case	_	_
 21	górnono	góren	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	22	amod	_	_
-22	zéme	zemǽ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj:lmod	_	SpaceAfter=No
+22	zéme	zemǽ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = RITVAN_BÓLAN_ZDRAVA_NÓSI_s-34
