@@ -225,7 +225,7 @@
 7	sas	sas	ADP	_	_	9	case	_	_
 8	žýne	žýjes	DET	_	Animacy=Nhum|Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Plur|PronType=Rel	9	det	_	_
 9	hápove	hap	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	11	nmod:tmod	_	_
-10	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	expl:pass	_	_
+10	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	_
 11	predávot	predávom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 12	na	na	ADP	_	_	13	case	_	_
 13	skrýto	skrýjem	VERB	_	Aspect=Perf|Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	11	obl	_	_
@@ -1161,7 +1161,7 @@
 1	Da	da	AUX	_	_	2	aux	_	_
 2	ídeme	ídom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	da	da	AUX	_	_	5	aux	_	_
-4	sí	so	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	5	expl:pass	_	_
+4	sí	so	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	5	expl	_	_
 5	naberéme	náberom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_
 6	grózdje	grózdje	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -1350,7 +1350,7 @@
 12	,	,	PUNCT	_	_	8	punct	_	_
 13	ja	ja	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 14	som	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
-15	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl:pass	_	_
+15	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl	_	_
 16	učíl	účem	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -1805,7 +1805,7 @@
 9	faf	faf	ADP	_	_	11	case	_	_
 10	komšúckokne	komšúckyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	11	amod	_	_
 11	čarlýka	čarlýk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obl:lmod	_	_
-12	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+12	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	expl	_	_
 13	gradí	grádem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj	_	_
 14	gulǽm	gulǽm	ADJ	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	15	amod	_	_
 15	saráj	saráj	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
@@ -2014,7 +2014,7 @@
 5	tríņa	tri	NUM	_	Definite=Def|Deixis=Remt|Number=Plur|NumType=Card	6	nummod	_	_
 6	arkadáše	arkadášin	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Count	9	nsubj	_	_
 7	mu	moj	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
-8	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	expl:pass	_	_
+8	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	_
 9	ožóņovot	ažónevom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -2651,7 +2651,7 @@
 3	tagáne	tagáne	ADV	_	Deixis=Prox|DeixisRef=2|PronType=Dem	7	advmod	_	_
 4	altóneno	altónen	ADJ	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	amod	_	_
 5	mómiče	mómiče	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
-6	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	7	expl:pass	_	_
+6	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	_
 7	pajevǽva	pajevǽvom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	naštése	naštése	ADV	_	_	7	advmod	_	_
 9	na	na	ADP	_	_	10	case	_	_
@@ -3466,7 +3466,7 @@
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	zǿlo	zǿmom	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	da	da	AUX	_	_	6	aux	_	_
-5	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+5	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 6	ablízava	ablízavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4775,7 +4775,7 @@
 1	Faf	faf	ADP	_	_	3	case	_	_
 2	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	_
 3	vréme	vréme	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	_
-4	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl:pass	_	_
+4	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	_
 5	to	ja	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	mark	_	_
 6	favrǽ	fávrem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	faf	faf	ADP	_	_	8	case	_	_
@@ -7264,7 +7264,7 @@
 6	néma	néma	PART	_	Polarity=Neg	0	root	_	_
 7	kaná	kaná	PRON	_	PronType=Int	10	obj	_	_
 8	da	da	AUX	_	_	10	aux	_	_
-9	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	10	expl:pass	_	_
+9	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	_
 10	plášaš	plášom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -8545,7 +8545,7 @@
 9	inélkus	isélkus	DET	_	Deixis=Remt|PronType=Dem	10	det	_	_
 10	déne	den	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	13	nmod:tmod	_	_
 11	še	še	AUX	_	_	13	aux	_	_
-12	sí	so	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	13	expl:pass	_	_
+12	sí	so	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	13	expl	_	_
 13	umréš	úmrom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
 14	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
@@ -8627,7 +8627,7 @@
 2	'	'	PUNCT	_	_	4	nummod	_	SpaceAfter=No
 3	nózek	isazí	DET	_	Case=Acc|Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	déne	den	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	nmod:tmod	_	_
-5	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	expl:pass	_	_
+5	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	_
 6	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	máštehana	mášteha	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	8	nsubj	_	_
 8	zglǽvala	zglǽvom	VERB	_	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
