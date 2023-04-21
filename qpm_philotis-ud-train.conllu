@@ -561,7 +561,7 @@
 7	katagá	katagá	ADV	_	_	8	advmod	_	_
 8	uséti	úsetem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	xcomp	_	_
 9	Asíp	Asíp	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	_
-10	Garípe	Garíp	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+10	Garípe	Garíp	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = XANTHINET-NATPRESH_2016-05-05-2_s-2
@@ -792,7 +792,7 @@
 # sent_id = ΚΑΤΑΚΗ_Δ_ΑΣΙΠ_ΓΚΑΡΙΠ_s-16
 # text = Asíp Garíp sí, ma, dójde», izrǘkala só je.
 1	Asíp	Asíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	_
-2	Garíp	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	_
+2	Garíp	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	_
 3	sí	so	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	7	expl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	ma	májka	NOUN	_	Case=Voc|Definite=Ind|Gender=Fem|Number=Sing	7	vocative	_	SpaceAfter=No
@@ -2166,7 +2166,7 @@
 6	isfírat	ízfirem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 7	Alí	Alí	PROPN	_	Case=Acc|Gender=Masc	6	nsubj	_	SpaceAfter=No
 8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	Ají	Ají	PROPN	_	Case=Acc|Gender=Masc	7	flat:name	_	_
+9	Ají	Ají	PROPN	_	Case=Acc|Gender=Masc	7	flat	_	_
 10	ot	at	ADP	_	_	11	case	_	_
 11	sélono	sélo	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -2962,7 +2962,7 @@
 4	azám	azám	ADV	_	_	1	advmod	_	_
 5	na	na	ADP	_	_	6	case	_	_
 6	Asíp	Asíp	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	1	obl:arg	_	_
-7	Garípe	Garíp	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	flat:name	_	_
+7	Garípe	Garíp	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	flat	_	_
 8	pak	pak	SCONJ	_	_	13	cc	_	_
 9	drúgono	drug	DET	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Neut|Number=Sing|PronType=Ind	10	det	_	_
 10	kópelø	kópele	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nsubj	_	_
@@ -2971,7 +2971,7 @@
 13	ažónilo	óžanem	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
 14	nah	nah	ADP	_	_	15	case	_	_
 15	Asíp	Asíp	PROPN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obl:arg	_	_
-16	Garípevo	Garípev	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	flat:name	_	_
+16	Garípevo	Garípev	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	flat	_	_
 17	séstro	sestrá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	amod	_	_
 18	i	i	CCONJ	_	_	19	cc	_	_
 19	žyváli	žývom	VERB	_	Animacy=Hum|Aspect=Imp|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	conj	_	_
@@ -4071,7 +4071,7 @@
 9	ádje	ádje	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	_
 10	na	na	ADP	_	_	11	case	_	_
 11	Néa	Néa	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	7	obl:lmod	_	_
-12	Péramo	Péramos	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	11	flat:name	_	_
+12	Péramo	Péramos	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	11	flat	_	_
 
 # sent_id = RITVAN_VAMPÍRE_s-80
 # text = Momána je nadénala móskyne drípy i atišlá je u čárene.
@@ -4353,7 +4353,7 @@
 10	víka	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	Alí	Alí	PROPN	_	Case=Nom|Gender=Masc	10	nsubj	_	SpaceAfter=No
 12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	11	flat:name	_	SpaceAfter=No
+13	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	11	flat	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	_
 15	«	«	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	še	še	AUX	_	_	18	aux	_	_
@@ -5284,7 +5284,7 @@
 4	júmeno	íme	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Neut|Number=Sing	1	obj	_	_
 5	Alí	Alí	PROPN	_	Case=Nom|Gender=Masc	1	nsubj	_	SpaceAfter=No
 6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	5	flat:name	_	SpaceAfter=No
+7	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	5	flat	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ΚΑΤΑΚΗ_Δ_ΑΣΠΡΑ_ΣΥΚΑ_ΚΑΙ_ΜΑΥΡΑ_ΣΥΚΑ_s-64
@@ -7476,7 +7476,7 @@
 # sent_id = ΚΑΤΑΚΗ_Δ_ΑΣΙΠ_ΓΚΑΡΙΠ_s-1
 # text = ASÍP GARÍP
 1	ASÍP	Asíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-2	GARÍP	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	_
+2	GARÍP	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_24_s-42
 # text = • Faf Pomáckyne selá insánon právet mlógo rábaty.
@@ -8381,7 +8381,7 @@
 # text = Ennóš Asán Jorganǧí očúkovo só (s) ennó drúgo détjo.
 1	Ennóš	annóš	ADV	_	_	4	advmod	_	_
 2	Asán	Asán	PROPN	_	Case=Nom|Gender=Masc	4	nsubj	_	_
-3	Jorganǧí	jurganǧí	PROPN	_	Case=Nom|Gender=Masc	2	flat:name	_	_
+3	Jorganǧí	jurganǧí	PROPN	_	Case=Nom|Gender=Masc	2	flat	_	_
 4	očúkovo	ačúkavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -8510,7 +8510,7 @@
 13	i	i	CCONJ	_	_	14	cc	_	_
 14	Hamdí	Hamdí	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
 15	-	-	PUNCT	_	_	14	goeswith	_	SpaceAfter=No
-16	star	star	ADJ	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	flat:name	_	_
+16	star	star	ADJ	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	flat	_	_
 17	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	18	expl	_	_
 18	abrášta	abráštom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 19	ta	ta	PART	_	_	21	mark	_	_
@@ -8620,7 +8620,7 @@
 13	faf	faf	ADP	_	_	14	case	_	_
 14	Ǧumágün	Ǧumágün	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	11	conj	_	_
 15	Apóstolos	Apóstolos	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	9	nsubj	_	_
-16	Ǵiǵikóstas	Ǵiǵikóstas	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	15	flat:name	_	_
+16	Ǵiǵikóstas	Ǵiǵikóstas	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	15	flat	_	_
 17	ad	ad	ADP	_	_	19	case	_	_
 18	Néa	Néa	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	19	flat	_	_
 19	Dimokratía	Dimokratía	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	15	obl	_	_
@@ -8698,7 +8698,7 @@
 5	atišlól	ídom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	i	i	CCONJ	_	_	7	cc	_	_
 7	Asíp	Asíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
-8	Garíp	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	flat:name	_	_
+8	Garíp	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	7	flat	_	_
 9	na	na	ADP	_	_	10	case	_	_
 10	svádbono	svádba	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	5	obl	_	_
 11	i	i	CCONJ	_	_	12	cc	_	_
@@ -9569,7 +9569,7 @@
 11	Pašavík	Pašavík	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	3	punct	_	_
 13	Gøkčé	Gøkčé	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	_
-14	Bunár	bunár	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	flat:name	_	_
+14	Bunár	bunár	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	flat	_	_
 15	i	i	CCONJ	_	_	16	cc	_	_
 16	Jasǿren	Asǿren	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
@@ -9584,7 +9584,7 @@
 6	ófce	afcá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	_
 7	na	na	ADP	_	_	8	case	_	_
 8	Čingené	Čingené	PROPN	_	Case=Acc|Definite=Ind	5	obl:lmod	_	_
-9	Hisár	Hisár	PROPN	_	Case=Acc|Definite=Ind	8	flat:name	_	SpaceAfter=No
+9	Hisár	Hisár	PROPN	_	Case=Acc|Definite=Ind	8	flat	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = RITVAN_SKÓPYJEN_KÁMEN_s-87
@@ -11780,7 +11780,7 @@
 3	nah	nah	ADP	_	_	4	case	_	_
 4	TARANTA	TARANTA	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	2	obl	_	_
 5	–	–	PUNCT	_	_	4	punct	_	_
-6	BABU	BABU	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	4	flat:name	_	_
+6	BABU	BABU	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	4	flat	_	_
 
 # sent_id = XANTHINET-NATPRESH_2016-04-10-1_s-2
 # text = Dvamína móske na 47 i na 31 godíny fáti faf Sóboto na 9 mesecáte sabályjin astinomíjena faf žókne póte varvǿt ad Aleksandrúpoli na Komotiní.
@@ -12865,7 +12865,7 @@
 1	pák	pak	ADV	_	_	2	advmod	_	_
 2	métnaho	métnom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Vangéli	Vangélis	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	2	obj	_	_
-4	Meimaráki	Meimarákis	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	3	flat:name	_	_
+4	Meimaráki	Meimarákis	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	3	flat	_	_
 5	faf	faf	ADP	_	_	6	case	_	_
 6	Ksánti	Ksánti	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	2	obl:lmod	_	_
 
@@ -13056,7 +13056,7 @@
 # text = «Asíp Garíp sí dójde, zǿmij ósučij kanóto», je víkala pésnena.
 1	«	«	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Asíp	Asíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
-3	Garíp	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat:name	_	_
+3	Garíp	Garíp	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	flat	_	_
 4	sí	so	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	5	expl	_	_
 5	dójde	dójdom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -13100,7 +13100,7 @@
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	faf	faf	ADP	_	_	8	case	_	_
 8	Andréu	Andréu	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	10	obl	_	_
-9	Dimitríu	Dimitríu	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	8	flat:name	_	_
+9	Dimitríu	Dimitríu	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	8	flat	_	_
 10	pánnaho	pánnom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 11	i	i	CCONJ	_	_	12	cc	_	_
 12	udrího	údrijem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
@@ -13316,7 +13316,7 @@
 5	začúdeno	záčudem	VERB	_	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 6	TARANTA	TARANTA	PROPN	_	Case=Voc|Definite=Ind|Number=Sing	5	vocative	_	SpaceAfter=No
 7	–	–	PUNCT	_	_	6	punct	_	SpaceAfter=No
-8	BABU	BABU	PROPN	_	Case=Voc|Definite=Ind|Number=Sing	6	flat:name	_	_
+8	BABU	BABU	PROPN	_	Case=Voc|Definite=Ind|Number=Sing	6	flat	_	_
 
 # sent_id = ΘΕΟΧΑΡΙΔΗΣ_Π_Ο_ΓΙΕΡΙΜ_ΚΑΙ_Η_ΤΖΑΝΤΗ_s-32
 # text = Alá Jerím zaborávil sí je čakíjena, vórnal sa je da sí jé zjómi.
@@ -13828,7 +13828,7 @@
 8	zvǽzdy	zvǽzda	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	Nasradín	Nasradín	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	_
-11	Hóǧe	Hóǧe	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	flat:name	_	_
+11	Hóǧe	Hóǧe	PROPN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	flat	_	_
 12	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	_
 13	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	navél	návedom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -15037,7 +15037,7 @@
 1	Ódi	hódem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	Alí	Alí	PROPN	_	Case=Nom|Gender=Masc	1	nsubj	_	SpaceAfter=No
 3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	2	flat:name	_	_
+4	Ají	Ají	PROPN	_	Case=Nom|Gender=Masc	2	flat	_	_
 5	udríva	udrívom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 6	ennóš	annóš	ADV	_	_	5	advmod	_	_
 7	déteno	déte	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Neut|Number=Sing	5	obj	_	_
