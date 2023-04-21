@@ -143,7 +143,7 @@
 11	sertmǿno	sertmǽ	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	métnal	métnom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	_
-14	go	ja	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+14	go	ja	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 15	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 16	faf	faf	ADP	_	_	17	case	_	_
 17	tarbóno	tarbá	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	13	obl	_	_
