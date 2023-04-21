@@ -11,11 +11,11 @@
 9	stánava	stánavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
 10	gündǘs	gündǘs	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
-12	pak	pak	SCONJ	_	_	14	cc	_	_
+12	pak	pak	SCONJ	_	_	13	mark	_	_
 13	sas	sas	ADP	_	_	14	case	_	_
 14	bǽloso	bæl	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	9	obl:lmod	_	_
-15	-	-	PUNCT	_	_	14	punct	_	_
-16	véčer	véčer	ADV	_	_	14	advmod	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	16	punct	_	_
+16	véčer	véčer	ADV	_	_	14	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΑΥΤΟΣ_ΠΟΥ_ΕΨΗΝΕ_ΚΑΦΕ_ΕΧΟΝΤΑΣ_ΚΡΕΜΑΣΕΙ_ΤΟ_ΜΠΡΙΚΙ_ΣΤΟ_ΤΑΒΑΝΙ_s-3
