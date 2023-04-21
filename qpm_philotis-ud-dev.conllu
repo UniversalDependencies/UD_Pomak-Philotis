@@ -1096,7 +1096,7 @@
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	hódil	hódem	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
 13	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
-14	cǽla	cæl	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	det	_	_
+14	cǽla	cæl	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	det	_	_
 15	déne	den	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
 17	jal	jam	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	_
@@ -1174,7 +1174,7 @@
 4	da	da	AUX	_	_	5	aux	_	_
 5	stánavot	stánavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
 6	na	na	ADP	_	_	8	case	_	_
-7	mlógo	mlógo	ADJ	_	Definite=Ind	8	det	_	_
+7	mlógo	mlógo	DET	_	Definite=Ind	8	det	_	_
 8	mestá	mǽsto	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	_
 9	érgy	érga	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	_
 10	kákna	kákna	ADV	_	Deixis=Remt|PronType=Rel	5	mark	_	_
@@ -1188,7 +1188,7 @@
 18	alá	alá	CCONJ	_	_	25	cc	_	_
 19	na	na	PART	_	Polarity=Neg	25	advmod	_	_
 20	pó	po	ADV	_	Degree=Cmp	21	advmod	_	_
-21	mlógono	mlógo	ADJ	_	Definite=Def|Deixis=Remt	22	nummod	_	_
+21	mlógono	mlógo	NUM	_	Definite=Def|Deixis=Remt	22	nummod	_	_
 22	mestá	mǽsto	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	25	obl	_	_
 23	so	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
 24	ne	ne	PART	_	Polarity=Neg	25	advmod	_	_
@@ -1385,7 +1385,7 @@
 3	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	vídeh	vídem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	napréš	napréš	ADP	_	_	7	case	_	_
-6	annók	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	7	det	_	_
+6	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card	7	det	_	_
 7	déne	den	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	nmod:tmod	_	_
 8	kak	kak	ADV	_	PronType=Int	9	advmod	_	_
 9	vlízašo	vlízom	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	_
@@ -1451,7 +1451,7 @@
 # text = Ja müsefírin li som, íli kaná?
 1	Ja	ja	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	müsefírin	müsefírin	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-3	li	li	PART	_	_	2	aux:q	_	_
+3	li	li	AUX	_	_	2	aux:q	_	_
 4	som	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	íli	íli	CCONJ	_	_	7	cc	_	_
