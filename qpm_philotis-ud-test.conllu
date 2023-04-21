@@ -291,7 +291,7 @@
 2	udrí	údrijem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	i	i	CCONJ	_	_	4	cc	_	_
 4	primáza	prímažom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
-5	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	nummod	_	_
+5	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	NUM	_	_
 6	stára	star	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_
 
 # sent_id = RODOPSKY_ΣΑΝ_ΤΟΝ_ΚΕΡΕΜ_s-1
@@ -999,7 +999,7 @@
 13	fišékove	fišék	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	10	conj	_	_
 14	i	i	CCONJ	_	_	17	cc	_	_
 15	drúgy	drug	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
-16	inakvýne	isakvózen	DET	_	Case=Acc|Deixis=Remt|Gender=Fem|Number=Plur|PronType=Dem	17	nummod	_	_
+16	inakvýne	isakvózen	DET	_	Case=Acc|Deixis=Remt|Gender=Fem|Number=Plur|PronType=Dem	17	NUM	_	_
 17	rábaty	rábata	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -2076,7 +2076,7 @@
 # text = • Ímom annó séstro i dvamína brátje.
 1	•	•	PUNCT	_	_	2	punct	_	_
 2	Ímom	ímom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	nummod	_	_
+3	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	NUM	_	_
 4	séstro	sestrá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	_
 5	i	i	CCONJ	_	_	7	cc	_	_
 6	dvamína	dvomína	NUM	_	Animacy=Hum|Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|NumType=Card	7	nummod	_	_
@@ -3193,7 +3193,7 @@
 9	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
 10	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	fabíl	fábijem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
-12	annókne	adín	DET	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing|PronType=Ind	13	nummod	_	_
+12	annókne	adín	NUM	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing|PronType=Ind	13	nummod	_	_
 13	kyllýče	kyllýč	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	_
 14	faf	faf	ADP	_	_	15	case	_	_
 15	to	ja	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nmod	_	_
@@ -3623,7 +3623,7 @@
 6	i	i	CCONJ	_	_	7	cc	_	_
 7	pamólil	pómalem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	_
 8	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-9	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	nummod	_	_
+9	annók	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	nummod	_	_
 10	komšújina	komšújin	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	_
 11	da	da	AUX	_	_	13	aux	_	_
 12	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
@@ -4226,7 +4226,7 @@
 7	cǽla	cæl	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	det	_	_
 8	Kuránane	kurán	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	6	obj	_	_
 9	právet	právem	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
-10	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	nummod	_	_
+10	annó	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	nummod	_	_
 11	duvó	duvá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	_
 12	i	i	CCONJ	_	_	15	cc	_	_
 13	bubájkovene	bubájko	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Masc|Number=Plur	15	nsubj	_	_
@@ -5122,7 +5122,7 @@
 5	le	le	ADV	_	_	7	advmod	_	_
 6	inugána	inagáne	ADV	_	Deixis=Remt|PronType=Dem	7	advmod	_	_
 7	vídjova	vídevom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-8	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	nummod	_	_
+8	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	NUM	_	_
 9	múho	muhá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	_
 10	na	na	ADP	_	_	12	case	_	_
 11	vasiļázkono	vasiļázskyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	12	amod	_	_
@@ -5932,7 +5932,7 @@
 13	mu	moj	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
 14	da	da	AUX	_	_	15	aux	_	_
 15	stóri	stórem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
-16	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	17	nummod	_	_
+16	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	17	NUM	_	_
 17	konáka	konák	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	_
 18	pó	po	ADV	_	Degree=Cmp	19	advmod	_	_
 19	gulǽma	gulǽm	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	amod	_	_
@@ -6056,7 +6056,7 @@
 6	na	na	ADP	_	_	7	case	_	_
 7	pótene	pot	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	8	obl	_	_
 8	srǽšta	srǽštom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-9	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	nummod	_	_
+9	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	NUM	_	_
 10	prasjáka	prasják	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
 12	óti	óti	SCONJ	_	_	14	mark	_	_
@@ -6619,7 +6619,7 @@
 1	Adín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ískal	íštom	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	annóno	adín	DET	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing|PronType=Ind	5	nummod	_	_
+4	annóno	adín	DET	_	Case=Acc|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing|PronType=Ind	5	NUM	_	_
 5	dóšterø	dašterǽ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	drug	drug	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	orphan	_	_
@@ -8572,7 +8572,7 @@
 7	stára	star	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	8	amod	_	_
 8	kámene	kámen	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	_
 9	iskárano	ízkarom	VERB	_	Aspect=Perf|Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	11	amod	_	_
-10	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	nummod	_	_
+10	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	NUM	_	_
 11	čulǽka	čulǽk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_
 12	žýjen	žýjes	DET	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	_
 13	kóli	kólem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -9018,7 +9018,7 @@
 12	prevódil	prévadem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	_
 13	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
 14	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
-15	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	16	nummod	_	_
+15	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	16	NUM	_	_
 16	véjko	véjka	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	8	punct	_	_
 18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -10270,7 +10270,7 @@
 5	:	:	PUNCT	_	_	4	punct	_	_
 6	«	«	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	Zjómi	zǿmom	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	ccomp	_	_
-8	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	nummod	_	_
+8	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	9	NUM	_	_
 9	skémļo	skémle	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	_
 10	i	i	CCONJ	_	_	12	cc	_	_
 11	kidéno	kadéna	ADV	_	Deixis=Remt|PronType=Rel	12	advmod	_	_
