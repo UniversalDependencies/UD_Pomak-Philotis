@@ -1278,7 +1278,7 @@
 2	papýtal	pópytom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 4	dǽdo	dǽdo	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	_
-5	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+5	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_25_s-77
@@ -4891,7 +4891,7 @@
 # sent_id = RODOPSKY_ΜΑΡΑ_Η_ΣΤΑΧΤΟΠΟΥΤΑ_s-1
 # text = Mára Pepelívka
 1	Mára	Mára	PROPN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
-2	Pepelívka	Pepelívka	PROPN	_	Case=Nom|Definite=Ind|DegreeModQpm=Dim|Gender=Fem|Number=Sing	1	flat:name	_	_
+2	Pepelívka	Pepelívka	PROPN	_	Case=Nom|Definite=Ind|DegreeModQpm=Dim|Gender=Fem|Number=Sing	1	flat	_	_
 
 # sent_id = ΘΕΟΧΑΡΙΔΗΣ_Π_Ο_ΚΕΛΤΣΟΣ,_Η_ΓΑΤΑ,_ΤΟ_ΣΚΥΛΙ_ΚΑΙ_ΤΟ_ΦΙΔΙ_s-2
 # text = Bir vakýt bir zamán enná žaná iméla ennó détjo, zavály go so Kélčo.
