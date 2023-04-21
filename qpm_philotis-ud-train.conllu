@@ -14609,7 +14609,7 @@
 21	atkák	atkák	SCONJ	_	_	23	mark	_	_
 22	na	na	PART	_	Polarity=Neg	23	advmod	_	_
 23	víka	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
-24	néma	néma	PART	_	Polarity=Neg	27	fixed	_	_
+24	néma	néma	PART	_	Polarity=Neg	29	fixed	_	_
 25	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	plášta	pláštom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	_
 27	hič	hič	ADV	_	_	26	advmod:emph	_	_
