@@ -14951,7 +14951,7 @@
 # sent_id = RITVAN_AD_NEBÓNO_PÁDOT_KÁMENKOVE_s-14
 # text = Na dørdünǧǘno déne je lisícana reklála: - Gladná som.
 1	Na	na	ADP	_	_	3	case	_	_
-2	dørdünǧǘno	dørdünǧǘ	ADJ	_	Definite=Def|Deixis=Remt|NumType=Ord	3	nummod	_	_
+2	dørdünǧǘno	dørdünǧǘ	NUM	_	Definite=Def|Deixis=Remt|NumType=Ord	3	nummod	_	_
 3	déne	den	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl:tmod	_	_
 4	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 5	lisícana	lisíca	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -15008,7 +15008,7 @@
 6	i	i	CCONJ	_	_	7	cc	_	_
 7	vídil	vídem	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	_
 8	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-9	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	nummod	_	_
+9	annók	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	nummod	_	_
 10	défe	def	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	_
 11	sas	sas	ADP	_	_	13	case	_	_
 12	jedí	jedí	NUM	_	Definite=Ind|Number=Plur|NumType=Card	13	nummod	_	_
