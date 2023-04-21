@@ -14609,7 +14609,7 @@
 21	atkák	atkák	SCONJ	_	_	23	mark	_	_
 22	na	na	PART	_	Polarity=Neg	23	advmod	_	_
 23	víka	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
-24	néma	néma	PART	_	Polarity=Neg	26	fixed	_	_
+24	néma	néma	PART	_	Polarity=Neg	27	fixed	_	_
 25	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	plášta	pláštom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	_
 27	hič	hič	ADV	_	_	26	advmod:emph	_	_
@@ -14792,7 +14792,7 @@
 # text = Balykčíjon fáta ennó rýbo, právi go (na) parčé da go izedé kóteno i kúčeno.
 1	Balykčíjon	balykčí	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	fáta	fátom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	ennó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	nummod	_	_
+3	ennó	adín	NUM	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	4	nummod	_	_
 4	rýbo	rybá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	právi	právem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
