@@ -48,10 +48,10 @@
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PROPN">334</feat><!-- sýne, dǽdo, ma, bubá, bábo, pópe, báte, dóšterø, čárü, žóno -->
     <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">8006</feat><!-- kóštono, čulǽkon, kópeløno, žýjen, stáryjen, mómičeno, žýne, žíne, žanána, momána -->
     <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">12192</feat><!-- annó, annók, déne, godíny, adín, bir, májka, mlógo, ennó, rábato -->
+    <feat name="Degree" value="Aug" upos="ADJ,NOUN,PROPN">8</feat><!-- Sélište, kupníšte, kámatnišičky, kámenište, nývvišičko, pýlniček, račíštana, ustǽkyne -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">186</feat><!-- pó, húbavo -->
+    <feat name="Degree" value="Dim" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,VERB">492</feat><!-- bábičkana, kópelčeno, kótenceno, kúčenceno, Galínka, kámenkane, kópelče, kutújkono, avenčóno, žábinkana -->
     <feat name="Degree" value="Sup" upos="ADV">152</feat><!-- naj -->
-    <feat name="DegreeModQpm" value="Dim" upos="ADJ,ADV,DET,NOUN,NUM,PROPN,VERB">492</feat><!-- bábičkana, kópelčeno, kótenceno, kúčenceno, Galínka, kámenkane, kópelče, kutújkono, avenčóno, žábinkana -->
-    <feat name="DegreeModQpm" value="Mag" upos="ADJ,NOUN,PROPN">8</feat><!-- Sélište, kupníšte, kámatnišičky, kámenište, nývvišičko, pýlniček, račíštana, ustǽkyne -->
     <feat name="Deixis" value="Prox" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">2025</feat><!-- isǽ, itúzi, kákta, mesecáte, sæ, isazí, itýj, isózek, isózi, kanáta -->
     <feat name="Deixis" value="Remt" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">7839</feat><!-- itám, kugána, inazí, kákna, kóštono, čulǽkon, kópeløno, žýjen, inagáne, stáryjen -->
     <feat name="DeixisRef" value="1" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">1010</feat><!-- isǽ, itúzi, sæ, isazí, isózek, isózi, mesecáse, isázi, isézi, isýj -->
