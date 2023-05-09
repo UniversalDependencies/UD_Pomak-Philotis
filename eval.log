@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Pomak-Philotis:
-commit 1a28f4397e1b40bc747c25af0a46b942be335962
-Merge: 166ae3b c7ed2c7
+commit 340097fbfe841e530ab2231e5fe4f52256a3bf5a
+Merge: 0927e13 ea8e053
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 86780 of 86780 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.92675236074041.
@@ -20,30 +20,25 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        746
-Udapi: found 746 bugs.
+               TOTAL       1223
+Udapi: found 1223 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 86780 words.
 Genres: found 4 out of 17 known.
-validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-dev.conllu
 *** PASSED ***
-validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-test.conllu
 *** PASSED ***
-validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-train.conllu
-[Line 35437 Sent RITVAN_JÚDY_s-191 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 53116 Sent RITVAN_VAMPÍRE_s-148 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 59087 Sent RITVAN_VAMPÍRE_s-30 Node 1]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 3
-*** FAILED *** with 3 errors
-Exit code: 1
-Validity: 0.01
+/net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
 (weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
 (weight=0.256410256410256) * (score{size}=0.646139881931064) = 0.165676892802837
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.914035492048859) = 0.281241689861187
+(weight=0.307692307692308) * (score{udapi}=0.859068909887071) = 0.264328895349868
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.614849771771684) * (availability=1) * (validity=0.01) = 0.00614849771771684
-STARS = 0
-UD_Pomak-Philotis	0.00614849771771684	0
+(TOTAL score=0.597936977260365) * (availability=1) * (validity=1) = 0.597936977260365
+STARS = 3
+UD_Pomak-Philotis	0.597936977260365	3
