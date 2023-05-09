@@ -97,7 +97,7 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="29">
-    <dep name="acl">341</dep>
+    <dep name="acl">342</dep>
     <dep name="advcl">1465</dep>
     <dep name="advmod">5738</dep>
     <dep name="amod">1902</dep>
@@ -107,7 +107,7 @@
     <dep name="ccomp">1846</dep>
     <dep name="conj">5151</dep>
     <dep name="cop">1</dep>
-    <dep name="csubj">26</dep>
+    <dep name="csubj">24</dep>
     <dep name="dep">1787</dep>
     <dep name="det">4036</dep>
     <dep name="discourse">452</dep>
@@ -121,7 +121,7 @@
     <dep name="nummod">1148</dep>
     <dep name="obj">6395</dep>
     <dep name="obl">2026</dep>
-    <dep name="parataxis">129</dep>
+    <dep name="parataxis">130</dep>
     <dep name="punct">13355</dep>
     <dep name="root">6350</dep>
     <dep name="vocative">295</dep>
