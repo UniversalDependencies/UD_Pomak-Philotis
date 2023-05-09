@@ -33,7 +33,8 @@ efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicola
 
 # Changelog
 
-
+* 2023-05-15 v2.12
+  * Feature DegreeModQpm replaced with universal Degree (diminutives, augmentatives).
 * 2022-04-12 v2.10
   * Initial release of golden morphologically annoated corpus
 
