@@ -13433,7 +13433,6 @@
 27	my	li	AUX	_	_	24	fixed	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
 
-
 # sent_id = XANTHINET-NATPRESH_2016-07-07_s-23
 # text = Dvamína móske na 33 i na 55 godíny faf Évro fáti faf Tórnik na 5 mesecáte astinomíjena za hašíše.
 1	Dvamína	dvomína	NUM	_	Animacy=Hum|Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|NumType=Card	2	nummod	_	_
