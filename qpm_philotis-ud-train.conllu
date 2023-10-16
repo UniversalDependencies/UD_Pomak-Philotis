@@ -9707,7 +9707,7 @@
 14	,	,	PUNCT	_	_	10	punct	_	_
 15	durgá	durgá	SCONJ	_	_	18	mark	_	_
 16	vrítsi	vrítsi	DET	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	18	nsubj	_	_
-17	da	da	AUX	_	_	15	fixed	_	_
+17	da	da	AUX	_	_	18	aux	_	_
 18	zaspǿt	záspem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
