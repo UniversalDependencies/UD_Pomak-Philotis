@@ -13410,8 +13410,8 @@
 4	etmíš	etmíš	X	_	Foreign=Yes	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	víka	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	'sæ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	6	advmod	_	SpaceAfter=No
-8	«	«	PUNCT	_	_	13	punct	_	_
+7	'sæ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	6	advmod	_	_
+8	«	«	PUNCT	_	_	13	punct	_	SpaceAfter=No
 9	ártyk	ártyk	ADV	_	_	13	advmod	_	SpaceAfter=No
 10	»	»	PUNCT	_	_	13	punct	_	_
 11	ja	ja	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
@@ -13432,6 +13432,7 @@
 26	jalán	jalán	ADJ	_	Definite=Ind	24	fixed	_	_
 27	my	li	AUX	_	_	24	fixed	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = XANTHINET-NATPRESH_2016-07-07_s-23
 # text = Dvamína móske na 33 i na 55 godíny faf Évro fáti faf Tórnik na 5 mesecáte astinomíjena za hašíše.
