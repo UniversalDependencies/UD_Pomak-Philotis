@@ -1,7 +1,7 @@
 # sent_id = RITVAN_VAMPÍRE_s-17
 # text = Sas čórnoso óko ja vídem síčkono, žóno stánava gündǘs, pak sas bǽloso - véčer.
 1	Sas	sas	ADP	_	_	3	case	_	_
-2	čórnoso	čóran	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	3	amod	_	_
+2	čórnoso	čóran	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	3	amod	_	_
 3	óko	aká	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	_
 4	ja	ja	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	vídem	vídem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13,7 +13,7 @@
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	pak	pak	SCONJ	_	_	14	cc	_	_
 13	sas	sas	ADP	_	_	14	case	_	_
-14	bǽloso	bæl	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Sing	10	appos	_	_
+14	bǽloso	bæl	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing	10	appos	_	_
 15	-	-	PUNCT	_	_	14	punct	_	_
 16	véčer	véčer	ADV	_	_	14	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
@@ -245,7 +245,7 @@
 11	durgá	durgá	SCONJ	_	_	13	mark	_	_
 12	da	da	AUX	_	_	11	fixed	_	_
 13	náučem	náučem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
-14	altonǧíckokse	altonǧíckyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	15	amod	_	_
+14	altonǧíckokse	altonǧíckyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	15	amod	_	_
 15	zanajáta	zanaját	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 16	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -254,11 +254,11 @@
 1	–	–	PUNCT	_	_	9	punct	_	_
 2	Óti	óti	PART	_	_	9	mark	_	_
 3	so	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
-4	dvomínasa	dvomína	NUM	_	Animacy=Hum|Case=Nom|Definite=Def|Deixis=Prox|Gender=Masc|NumType=Card|Number=Plur	6	nummod	_	_
+4	dvomínasa	dvomína	NUM	_	Animacy=Hum|Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|NumType=Card|Number=Plur	6	nummod	_	_
 5	nu	moj	PRON	_	Case=Gen|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Variant=Short	6	det	_	_
 6	kónsula	kónsul	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
 7	i	i	CCONJ	_	_	8	cc	_	_
-8	pretórese	prétor	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	pretórese	prétor	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Plur	9	nsubj	_	_
 9	izlǽli	ízlezom	VERB	_	Animacy=Hum|Aspect=Perf|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 10	s	s	ADP	_	_	13	case	_	_
 11	červényne	červén	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Plur	13	amod	_	_
@@ -268,7 +268,7 @@
 
 # sent_id = RODOPSKY_ΕΒΔΟΜΟ_ΓΡΑΜΜΑ_ΣΤΟΝ_ΤΑΡΑΝΤΑ-ΜΠΑΜΠΟΥ_s-47
 # text = insános císti garópali...
-1	insános	insán	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Masc|Number=Plur	3	nsubj	_	_
+1	insános	insán	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	císti	cist	ADJ	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	amod	_	_
 3	garópali	garópal	ADJ	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -360,7 +360,7 @@
 16	-	-	PUNCT	_	_	15	punct	_	_
 17	dur	dur	SCONJ	_	_	18	mark	_	_
 18	da	da	ADP	_	_	21	case	_	_
-19	isózi	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+19	isózi	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
 20	pad	pad	ADP	_	_	21	case	_	_
 21	námi	ja	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	8	punct	_	_
@@ -760,7 +760,7 @@
 3	zaftásot	záftasom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	csubj	_	_
 4	da	da	AUX	_	_	5	aux	_	_
 5	ídot	ídom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
-6	isǽ	isǽ	ADV	_	Deixis=Prox|PronType=Dem	5	advmod	_	_
+6	isǽ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	5	advmod	_	_
 7	na	na	ADP	_	_	8	case	_	_
 8	bángono	bánga	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -1004,7 +1004,7 @@
 1	Akú	akú	SCONJ	_	_	2	mark	_	_
 2	dójdete	dójdom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
 3	faf	faf	ADP	_	_	4	case	_	_
-4	dvórase	dvor	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	2	obl:lmod	_	_
+4	dvórase	dvor	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	2	obl:lmod	_	_
 5	prez	prez	ADP	_	_	7	case	_	_
 6	pǽsačno	pǽsačen	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	7	amod	_	_
 7	fórtamo	fórtama	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
@@ -1069,7 +1069,7 @@
 1	–	–	PUNCT	_	_	2	punct	_	_
 2	Máhnij	máhnom	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 3	jé	ja	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	2	obj	_	_
-4	isózi	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	isózi	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	krávo	kráva	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	!	!	PUNCT	_	_	2	punct	_	_
 
@@ -1284,7 +1284,7 @@
 4	víkot	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	_
 5	ta	ta	PART	_	_	10	mark	_	_
 6	faf	faf	ADP	_	_	9	case	_	_
-7	isók	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+7	isók	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 8	parátika	parátik	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	amod	_	_
 9	zemána	zemán	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	_
 10	trǽbavašo	trǽbavom	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	csubj	_	_
@@ -1359,7 +1359,7 @@
 1	Inazí	isazí	DET	_	Case=Nom|Deixis=Remt|DeixisRef=3|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	na	na	PART	_	Polarity=Neg	3	advmod	_	_
 3	stánava	stánavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	isǽ	isǽ	ADV	_	Deixis=Prox|PronType=Dem	3	advmod	_	_
+4	isǽ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	3	advmod	_	_
 5	seftǽ	seftǽ	ADV	_	_	3	advmod	_	_
 6	alá	alá	CCONJ	_	_	7	cc	_	_
 7	íma	ímom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
@@ -1395,7 +1395,7 @@
 13	górnono	góren	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Sing	14	amod	_	_
 14	zéme	zemǽ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	_
 15	faf	faf	ADP	_	_	16	case	_	_
-16	dólnoso	dólen	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+16	dólnoso	dólen	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΟΙ_ΔΥΟ_ΣΤΟΙΧΕΙΩΜΕΝΟΙ_ΜΥΛΟΙ_s-26
@@ -1462,7 +1462,7 @@
 # text = Toj je Míthras at stáryte Románcky godíny.
 1	Toj	ja	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 2	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-3	Míthras	míter	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	1	appos	_	_
+3	Míthras	míter	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	1	appos	_	_
 4	at	at	ADP	_	_	7	case	_	_
 5	stáryte	star	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=2|Gender=Fem|Number=Plur	7	amod	_	_
 6	Románcky	románckyj	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	amod	_	_
@@ -1506,7 +1506,7 @@
 2	Lisíco	lisíca	NOUN	_	Case=Voc|Definite=Ind|Gender=Fem|Number=Sing	4	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	čákyj	čákom	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-5	sæ	sæ	ADV	_	Deixis=Prox|PronType=Dem	4	advmod	_	_
+5	sæ	sæ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	4	advmod	_	_
 6	i	i	CCONJ	_	_	9	cc	_	_
 7	ja	ja	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj:pass	_	_
 8	da	da	AUX	_	_	9	aux	_	_
@@ -1585,8 +1585,8 @@
 2	:	:	PUNCT	_	_	3	punct	_	_
 3	Dragóvaš	dragóvom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	li	li	PART	_	_	3	aux:q	_	_
-5	vremǿso	vréme	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Sing	3	obj	_	_
-6	isǽ	isǽ	ADV	_	Deixis=Prox|PronType=Dem	3	advmod	_	_
+5	vremǿso	vréme	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing	3	obj	_	_
+6	isǽ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	3	advmod	_	_
 7	vas	vaz	ADP	_	_	8	case	_	_
 8	prolét	pralét	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 9	?	?	PUNCT	_	_	3	punct	_	_
@@ -1595,7 +1595,7 @@
 12	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 13	pó	po	ADV	_	Degree=Cmp	14	advmod	_	_
 14	dragá	drag	ADJ	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	amod	_	_
-15	zimása	zimá	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	3	conj	_	_
+15	zimása	zimá	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	3	conj	_	_
 16	óti	óti	SCONJ	_	_	17	mark	_	_
 17	mrázi	mrázem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
 18	i	i	CCONJ	_	_	19	cc	_	_
@@ -1718,7 +1718,7 @@
 3	da	da	AUX	_	_	4	aux	_	_
 4	prekára	prékarom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	_
 5	na	na	ADP	_	_	7	case	_	_
-6	nášasek	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+6	nášasek	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	hüküméte	hükümét	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	4	obl:lmod	_	_
 8	9	9	NUM	_	Definite=Ind|NumType=Card|Number=Plur	9	nummod	_	_
 9	kišǽh	kiší	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	_
@@ -1769,7 +1769,7 @@
 1	-	-	PUNCT	_	_	5	punct	_	_
 2	Altmýš	altmýš	NUM	_	Definite=Ind|NumType=Card|Number=Plur	3	nummod	_	_
 3	godíny	godína	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obl:tmod	_	_
-4	ajsakvós	isakvózen	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	ajsakvós	isakvózen	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	žyvót	žyvót	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 6	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	mlógu	mlógo	ADJ	_	Definite=Ind	8	amod	_	_
@@ -1851,7 +1851,7 @@
 7	kak	kak	ADV	_	PronType=Int	9	advmod	_	_
 8	výje	ja	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	0	root	_	_
 9	pres	prez	ADP	_	_	8	fixed	_	_
-10	tus	itúzi	ADV	_	Deixis=Prox|PronType=Dem	8	fixed	_	SpaceAfter=No
+10	tus	itúzi	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	8	fixed	_	SpaceAfter=No
 11	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = UNOFFICIAL_ΑΝΤΙ_ΓΙΑ_ΓΑΜΟΣ,_ΚΗΔΕΙΑ_s-15
@@ -1916,10 +1916,10 @@
 # sent_id = RITVAN_BAKŠÍŠ_AT_SÓRCE_s-20
 # text = Pak hórehyse dávom at sarcéso.
 1	Pak	pak	SCONJ	_	_	3	cc	_	_
-2	hórehyse	hóreh	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	hórehyse	hóreh	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	dávom	dávom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	at	at	ADP	_	_	5	case	_	_
-5	sarcéso	sórce	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Sing	3	obl:arg	_	SpaceAfter=No
+5	sarcéso	sórce	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing	3	obl:arg	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = UNOFFICIAL_Ο_ΓΑΜΟΣ_s-8
@@ -1947,7 +1947,7 @@
 12	kutrí	kutrí	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	13	nsubj	_	_
 13	bǽga	bǽgom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 14	ad	ad	ADP	_	_	16	case	_	_
-15	itakvózne	isakvózen	DET	_	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+15	itakvózne	isakvózen	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
 16	séstro	sestrá	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	_
 17	kakvóto	kakvóvsa	DET	_	Case=Acc|Deixis=Prox|DeixisRef=2|Gender=Fem|Number=Sing|PronType=Rel	18	det	_	_
 18	tébe	ja	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	13	obj	_	SpaceAfter=No
@@ -1989,11 +1989,11 @@
 # text = Pótrasij faf diságyse i póvdignij mi samárese da vídiš kaná je skrýla itám tváta hubavá nevǽsta.
 1	Pótrasij	pótrasem	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	faf	faf	ADP	_	_	3	case	_	_
-3	diságyse	disága	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Plur	1	obl:lmod	_	_
+3	diságyse	disága	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur	1	obl:lmod	_	_
 4	i	i	CCONJ	_	_	5	cc	_	_
 5	póvdignij	póvdignom	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	_
 6	mi	moj	PRON	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs|Variant=Short	7	det	_	_
-7	samárese	samár	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	5	obj	_	_
+7	samárese	samár	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	5	obj	_	_
 8	da	da	AUX	_	_	9	aux	_	_
 9	vídiš	vídem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
 10	kaná	kaná	DET	_	PronType=Int	12	obj	_	_
@@ -2189,7 +2189,7 @@
 # sent_id = RODOPSKY_ΕΒΔΟΜΟ_ΓΡΑΜΜΑ_ΣΤΟΝ_ΤΑΡΑΝΤΑ-ΜΠΑΜΠΟΥ_s-12
 # text = - Kózomse
 1	-	-	PUNCT	_	_	2	punct	_	_
-2	Kózomse	koz	NOUN	_	Case=Gen|Definite=Def|Deixis=Prox|Gender=Fem|Number=Plur	0	root	_	_
+2	Kózomse	koz	NOUN	_	Case=Gen|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur	0	root	_	_
 
 # sent_id = RITVAN_BAKŠÍŠ_AT_SÓRCE_s-7
 # text = - Býva, báte - reklíli so dvomínana pó míčki brátje, palǘbili mú so rakóno i halallaštísali só so.
@@ -2555,7 +2555,7 @@
 1	–	–	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Bóržo	bóržo	ADV	_	_	3	advmod	_	_
 3	jála	dójdom	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-4	itúzi	itúzi	ADV	_	Deixis=Prox|PronType=Dem	3	advmod	_	SpaceAfter=No
+4	itúzi	itúzi	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	azám	azám	ADV	_	_	3	advmod	_	SpaceAfter=No
 7	!	!	PUNCT	_	_	3	punct	_	_
@@ -2658,7 +2658,7 @@
 10	nebóno	nebá	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	cǽlo	cæl	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	13	amod	_	_
-13	düņóso	düņá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	14	obl:lmod	_	_
+13	düņóso	düņá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	14	obl:lmod	_	_
 14	agíra	agírom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 15	i	i	CCONJ	_	_	16	cc	_	_
 16	abijískava	abijískavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
@@ -2765,7 +2765,7 @@
 # sent_id = RITVAN_ČORBAǦÍJEN_I_ŽYTVÁREN_s-9
 # text = - Isǽ še tí dam brášno - reklól je čorbaǧíjen.
 1	-	-	PUNCT	_	_	5	punct	_	_
-2	Isǽ	isǽ	ADV	_	Deixis=Prox|PronType=Dem	5	advmod	_	_
+2	Isǽ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	5	advmod	_	_
 3	še	še	AUX	_	_	5	aux	_	_
 4	tí	ja	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs|Variant=Short	5	iobj	_	_
 5	dam	dam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
@@ -2881,7 +2881,7 @@
 # sent_id = RODOPSKY_ΤΟ_ΠΑΡΑΞΕΝΟ_ΠΟΥΛΙ_s-56
 # text = "Isazí še káža kysmét!
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-2	Isazí	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	Isazí	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	še	še	AUX	_	_	4	aux	_	_
 4	káža	kážom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	kysmét	kysmét	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
@@ -2966,7 +2966,7 @@
 8	ta	ta	PART	_	_	10	mark	_	_
 9	da	da	AUX	_	_	8	fixed	_	_
 10	nahránime	náhranem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
-11	nášokse	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
+11	nášokse	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
 12	arkadášina	arkadášin	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 14	"	"	PUNCT	_	_	5	punct	_	_
@@ -2994,9 +2994,9 @@
 4	mí	ja	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl	_	_
 5	gi	ja	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs|Variant=Short	6	obj	_	_
 6	nósiš	nósem	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	hajvánese	hajvánin	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Plur	6	obj	_	_
+7	hajvánese	hajvánin	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Plur	6	obj	_	_
 8	faf	faf	ADP	_	_	9	case	_	_
-9	kóštoso	kóšta	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	6	obl:lmod	_	SpaceAfter=No
+9	kóštoso	kóšta	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	6	obl:lmod	_	SpaceAfter=No
 10	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = RITVAN_ALTÓNENONO_MÓMIČE_s-20
@@ -3049,7 +3049,7 @@
 23	da	da	AUX	_	_	24	aux	_	_
 24	nábijo	nábijem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	csubj	_	_
 25	ot	at	ADP	_	_	26	case	_	_
-26	séloso	sélo	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+26	séloso	sélo	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
 27	»	»	PUNCT	_	_	12	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -3058,7 +3058,7 @@
 1	Tagás	itagáne	ADV	_	Deixis=Prox|DeixisRef=2|PronType=Dem	3	advmod	_	_
 2	Alláh	alláh	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	_
 3	jeratísava	jarattísavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	majmúninase	majmúnin	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	3	obj	_	_
+4	majmúninase	majmúnin	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	3	obj	_	_
 5	i	i	CCONJ	_	_	6	cc	_	_
 6	víka	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 7	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	6	iobj	_	SpaceAfter=No
@@ -3123,7 +3123,7 @@
 # sent_id = RITVAN_ALTÓNENONO_PÍLE_s-168
 # text = - Isakvózen li je?
 1	-	-	PUNCT	_	_	4	punct	_	_
-2	Isakvózen	isakvózen	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	Isakvózen	isakvózen	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 3	li	li	PART	_	_	4	aux:q	_	_
 4	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	4	punct	_	_
@@ -3262,7 +3262,7 @@
 # text = Ša razdelíme pótevese i ša zémeme pa annók póte.
 1	Ša	še	AUX	_	_	2	aux	_	_
 2	razdelíme	rázdelem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	pótevese	pot	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Plur	2	obj	_	_
+3	pótevese	pot	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Plur	2	obj	_	_
 4	i	i	CCONJ	_	_	6	cc	_	_
 5	ša	še	AUX	_	_	6	aux	_	_
 6	zémeme	zǿmom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -3508,9 +3508,9 @@
 4	púsnal	púsnom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	vaz	vaz	ADP	_	_	7	case	_	_
-7	Balkánase	balkán	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	4	obl	_	_
+7	Balkánase	balkán	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	4	obl	_	_
 8	i	i	CCONJ	_	_	11	cc	_	_
-9	Kafkása	kofká	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	Kafkása	kofká	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	11	nsubj	_	_
 10	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	fúknal	fúknom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
@@ -3740,7 +3740,7 @@
 14	gün	gün	NOUN	_	Definite=Ind	15	obl	_	_
 15	kóšana	kóšta	NOUN	_	Case=Nom|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Sing	7	nsubj	_	_
 16	do	da	ADP	_	_	18	case	_	_
-17	móso	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
+17	móso	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
 18	kóšo	kóšta	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	15	obl:lmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	tagís	itagáne	ADV	_	Deixis=Prox|DeixisRef=2|PronType=Dem	23	advmod	_	_
@@ -3786,11 +3786,11 @@
 2	Ǧumágün	Ǧumágün	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	7	obl:tmod	_	_
 3	na	na	ADP	_	_	5	case	_	_
 4	23	23	NUM	_	Definite=Ind|NumType=Card|Number=Plur	5	nummod	_	_
-5	mesecáse	mésec	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	2	obl:tmod	_	_
+5	mesecáse	mésec	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	2	obl:tmod	_	_
 6	še	še	AUX	_	_	7	aux	_	_
 7	dávot	dávom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	ad	ad	ADP	_	_	9	case	_	_
-9	hükümétese	hükümét	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	7	obl:lmod	_	_
+9	hükümétese	hükümét	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	7	obl:lmod	_	_
 10	détišeno	détište	ADJ	_	Case=Acc|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Plur	11	amod	_	_
 11	parý	pará	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
@@ -3836,7 +3836,7 @@
 15	birinǧíto	birinǧí	ADJ	_	Definite=Def|Deixis=Prox|DeixisRef=2|NumType=Ord	16	amod	_	_
 16	Nedéle	Nedéle	PROPN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	13	obl:lmod	_	_
 17	i	i	CCONJ	_	_	22	cc	_	_
-18	isǽ	isǽ	ADV	_	Deixis=Prox|PronType=Dem	22	advmod	_	_
+18	isǽ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	22	advmod	_	_
 19	néma	néma	PART	_	Polarity=Neg	13	conj	_	_
 20	pák	pak	ADV	_	_	22	advmod	_	_
 21	da	da	AUX	_	_	22	aux	_	_
@@ -3961,7 +3961,7 @@
 
 # sent_id = RODOPSKY_ΕΒΔΟΜΟ_ΓΡΑΜΜΑ_ΣΤΟΝ_ΤΑΡΑΝΤΑ-ΜΠΑΜΠΟΥ_s-43
 # text = Stanovése
-1	Stanovése	stan	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Masc|Number=Plur	0	root	_	_
+1	Stanovése	stan	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Plur	0	root	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΤΟ_ΜΗΛΟ_ΤΟΥ_ΜΥΛΩΝΑ_s-37
 # text = Mamána, víka, néma da íde da prenesé láfa pa séloso, néma óči da paglé čúzdo, néma róko za na čúzdo.
@@ -3976,7 +3976,7 @@
 9	prenesé	prénesom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	csubj	_	_
 10	láfa	laf	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	_
 11	pa	pa	ADP	_	_	12	case	_	_
-12	séloso	sélo	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Sing	9	obl:lmod	_	SpaceAfter=No
+12	séloso	sélo	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing	9	obl:lmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	néma	némom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 15	óči	aká	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	_
@@ -4224,7 +4224,7 @@
 2	Ǧumágün	Ǧumágün	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	15	obl:tmod	_	_
 3	na	na	ADP	_	_	5	case	_	_
 4	18	18	NUM	_	Definite=Ind|NumType=Card|Number=Plur	5	nummod	_	_
-5	mesecáse	mésec	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	2	nmod:tmod	_	_
+5	mesecáse	mésec	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	2	nmod:tmod	_	_
 6	ad	ad	ADP	_	_	7	case	_	_
 7	10	10	NUM	_	Definite=Ind|NumType=Card|Number=Plur	5	nummod	_	_
 8	sabályjin	sabáhlajin	ADV	_	_	5	advmod	_	_
@@ -4247,12 +4247,12 @@
 25	vídet	vídem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
 26	ad	ad	ADP	_	_	25	advmod	_	_
 27	blísko	blízko	ADV	_	_	26	fixed	_	_
-28	síčkoso	síčko	DET	_	Definite=Def|Deixis=Prox|PronType=Tot	31	obj	_	_
-29	kaknása	kanása	DET	_	Deixis=Prox|PronType=Rel	31	obj	_	_
+28	síčkoso	síčko	DET	_	Definite=Def|Deixis=Prox|DeixisRef=1|PronType=Tot	31	obj	_	_
+29	kaknása	kanása	DET	_	Deixis=Prox|DeixisRef=1|PronType=Rel	31	obj	_	_
 30	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	31	expl	_	_
 31	iskárava	izkáravom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	csubj:pass	_	_
 32	pa	pa	ADP	_	_	35	case	_	_
-33	nášyse	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	35	det	_	_
+33	nášyse	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	35	det	_	_
 34	sí	so	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	35	det	_	_
 35	mestá	mǽsto	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	31	obl:lmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	15	punct	_	_
@@ -4309,7 +4309,7 @@
 3	kak	kak	ADV	_	PronType=Int	5	advmod	_	_
 4	som	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	prekáral	prékarom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	csubj	_	_
-6	žyvótase	žyvót	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+6	žyvótase	žyvót	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = UNOFFICIAL_ΤΟ_ΤΣΑΚΑΛΙ_ΚΑΙ_Η_ΓΡΙΑ_s-3
@@ -4340,7 +4340,7 @@
 2	še	še	AUX	_	_	4	aux	_	_
 3	da	da	AUX	_	_	4	aux	_	_
 4	vdígnom	vdígnom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	kámenese	kámen	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+5	kámenese	kámen	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 6	»	»	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4419,7 +4419,7 @@
 2	Ty	ja	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 3	li	li	PART	_	_	4	aux:q	_	_
 4	ušý	úšyjem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	isézi	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+5	isézi	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
 6	drípy	drípa	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -4463,7 +4463,7 @@
 # text = Lǽka za itézi balíky néma faf tógavokne čarlýka.
 1	Lǽka	læk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	_
 2	za	za	ADP	_	_	4	case	_	_
-3	itézi	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+3	itézi	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
 4	balíky	balíka	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	1	obl	_	_
 5	néma	némom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	faf	faf	ADP	_	_	8	case	_	_
@@ -4518,7 +4518,7 @@
 16	trǽbava	trǽbavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 17	na	na	ADP	_	_	18	case	_	_
 18	annók	adín	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
-19	isélkus	isélkus	DET	_	Deixis=Prox|PronType=Dem	21	det	_	_
+19	isélkus	isélkus	DET	_	Deixis=Prox|DeixisRef=1|PronType=Dem	21	det	_	_
 20	húbava	húbav	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	21	amod	_	_
 21	déne	den	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	16	obl:tmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
@@ -4673,7 +4673,7 @@
 6	Srǽdo	Sredá	PROPN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	nmod:tmod	_	_
 7	na	na	ADP	_	_	9	case	_	_
 8	20	20	NUM	_	Definite=Ind|NumType=Card|Number=Plur	9	nummod	_	_
-9	mesecáse	mésec	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	6	nmod:tmod	_	_
+9	mesecáse	mésec	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	6	nmod:tmod	_	_
 10	ad	ad	ADP	_	_	11	case	_	_
 11	ráno	ráno	ADV	_	_	9	nmod:tmod	_	_
 12	sabályjin	sabáhlajin	ADV	_	_	9	advmod	_	_
@@ -4692,7 +4692,7 @@
 25	Efésu	Efés	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	_
 26	óti	óti	SCONJ	_	_	30	mark	_	_
 27	ad	ad	ADP	_	_	28	case	_	_
-28	Belidjóso	belidjá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	30	obl	_	_
+28	Belidjóso	belidjá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	30	obl	_	_
 29	še	še	AUX	_	_	30	aux	_	_
 30	mǽtot	mǽtom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
 31	nóvo	nov	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	32	amod	_	_
@@ -4750,7 +4750,7 @@
 # sent_id = RODOPSKY_ΤΟ_ΤΕΛΟΣ_ΤΟΥ_ΚΟΣΜΟΥ_s-4
 # text = – Isózek avéna go som abrékal za vámi.
 1	–	–	PUNCT	_	_	6	punct	_	_
-2	Isózek	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	Isózek	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	avéna	avén	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_
 4	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	3	expl	_	_
 5	som	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
@@ -5110,7 +5110,7 @@
 12	da	da	AUX	_	_	13	aux	_	_
 13	pamína	pamínom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	xcomp	_	_
 14	prez	prez	ADP	_	_	16	case	_	_
-15	isózek	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+15	isózek	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	póte	pot	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obl:lmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	13	punct	_	_
 18	níta	níta	CCONJ	_	_	19	cc	_	_
@@ -5126,7 +5126,7 @@
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	Še	še	AUX	_	_	3	aux	_	_
 3	sedíte	sédom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	itúzi	itúzi	ADV	_	Deixis=Prox|PronType=Dem	3	advmod	_	SpaceAfter=No
+4	itúzi	itúzi	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	durdé	durdé	SCONJ	_	_	7	mark	_	_
 7	dójde	dójdom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
@@ -5153,7 +5153,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	víka	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	iséj	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+6	iséj	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
 7	jábalky	jábalka	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	kakóf	kakvóv	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	13	nsubj	_	_
@@ -5167,7 +5167,7 @@
 17	dadéš	dam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 18	mífčinko	mífko	ADV	_	qpm-DegreeMod=Dim	17	advmod	_	_
 19	ad	ad	ADP	_	_	20	case	_	_
-20	jábalkoso	jábalka	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	jábalkoso	jábalka	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	azdráve	azdravǽvom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
 23	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	22	expl	_	_
@@ -5315,7 +5315,7 @@
 9	-	-	PUNCT	_	_	5	punct	_	_
 10	alá	alá	CCONJ	_	_	15	cc	_	_
 11	préfti	préfti	ADP	_	_	12	case	_	_
-12	tačilása	tačílo	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Plur	15	obl	_	_
+12	tačilása	tačílo	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Plur	15	obl	_	_
 13	naj	naj	ADV	_	Degree=Sup	14	advmod	_	_
 14	napréš	napréš	ADV	_	_	15	advmod	_	_
 15	trǽbava	trǽbavom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
@@ -5343,7 +5343,7 @@
 # sent_id = RODOPSKY_ΕΒΔΟΜΟ_ΓΡΑΜΜΑ_ΣΤΟΝ_ΤΑΡΑΝΤΑ-ΜΠΑΜΠΟΥ_s-39
 # text = Prez krájjeso bólni, katagá gládny vólkove
 1	Prez	prez	ADP	_	_	2	case	_	_
-2	krájjeso	kraj	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Coll	3	obl	_	_
+2	krájjeso	kraj	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Coll	3	obl	_	_
 3	bólni	bólan	ADJ	_	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	katagá	katagá	ADV	_	_	7	advmod	_	_
@@ -5409,7 +5409,7 @@
 
 # sent_id = RODOPSKY_ΕΒΔΟΜΟ_ΓΡΑΜΜΑ_ΣΤΟΝ_ΤΑΡΑΝΤΑ-ΜΠΑΜΠΟΥ_s-41
 # text = dépyse zaklǘčeny
-1	dépyse	dépa	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Fem|Number=Plur	2	amod	_	_
+1	dépyse	dépa	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur	2	amod	_	_
 2	zaklǘčeny	záklüčem	VERB	_	Aspect=Perf|Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
 
 # sent_id = UNOFFICIAL_Ο_ΑΝΘΡΩΠΟΣ_ΚΑΙ_Ο_ΘΕΟΣ_s-23
@@ -5790,7 +5790,7 @@
 3	tó	ja	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs|Variant=Short	4	obj	_	_
 4	prénesom	prénesom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	prez	prez	ADP	_	_	6	case	_	_
-6	rǽkoso	reká	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	4	obl:lmod	_	SpaceAfter=No
+6	rǽkoso	reká	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	4	obl:lmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = XANTHINET-NATPRESH_2016-05-13_s-4
@@ -5835,7 +5835,7 @@
 1	Prebrajího	prebrajíha	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	_
 3	vrit	vrit	DET	_	PronType=Tot	4	det	_	_
-4	réhyse	rehá	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|Gender=Fem|Number=Plur	1	nsubj	_	_
+4	réhyse	rehá	NOUN	_	Case=Nom|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur	1	nsubj	_	_
 5	faf	faf	ADP	_	_	6	case	_	_
 6	Ksánti	Ksánti	PROPN	_	Case=Acc|Definite=Ind|Number=Sing	1	obl:lmod	_	_
 7	ad	ad	ADP	_	_	9	case	_	_
@@ -5968,7 +5968,7 @@
 16	da	da	AUX	_	_	17	aux	_	_
 17	delíme	délem	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	xcomp	_	_
 18	i	i	CCONJ	_	_	20	cc	_	_
-19	gelínckokse	gelínckyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	20	amod	_	_
+19	gelínckokse	gelínckyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	20	amod	_	_
 20	kreváta	krevát	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
 21	!	!	PUNCT	_	_	15	punct	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -6013,7 +6013,7 @@
 2	li	li	PART	_	_	1	aux:q	_	_
 3	mí	ja	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obl	_	_
 4	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
-5	sæ	sæ	ADV	_	Deixis=Prox|PronType=Dem	6	advmod	_	_
+5	sæ	sæ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	6	advmod	_	_
 6	halál	halál	ADJ	_	Definite=Ind	7	amod	_	_
 7	jábalkoto	jábalka	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=2|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 8	?	?	PUNCT	_	_	1	punct	_	_
@@ -6143,7 +6143,7 @@
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_24_s-26
 # text = Isǽna rábatøt le ólu čétri vodeníce faf Démirǧik, Pašavík, Siníkovo i pri Jasǿren.
-1	Isǽna	isǽna	ADV	_	Deixis=Prox|PronType=Dem	2	advmod	_	_
+1	Isǽna	isǽna	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	2	advmod	_	_
 2	rábatøt	rábatem	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	le	le	ADV	_	_	2	advmod	_	_
 4	ólu	óla	ADV	_	_	2	advmod	_	_
@@ -6210,7 +6210,7 @@
 13	mí	ja	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	14	iobj	_	_
 14	vléza	vlézom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	9	csubj	_	_
 15	faf	faf	ADP	_	_	16	case	_	_
-16	nagóso	nagá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	14	obl:lmod	_	SpaceAfter=No
+16	nagóso	nagá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	14	obl:lmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = RODOPSKY_ΤΟ_ΧΡΥΣΟ_ΚΟΡΙΤΣΙ_s-98
@@ -6554,7 +6554,7 @@
 6	adín	adín	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
 7	tóran	tóran	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_
 8	faf	faf	ADP	_	_	9	case	_	_
-9	nagóso	nagá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	nagóso	nagá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 10	»	»	PUNCT	_	_	2	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	advórnalo	ódvarnom	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -6628,7 +6628,7 @@
 10	da	da	AUX	_	_	12	aux	_	_
 11	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	12	obj	_	_
 12	óstavem	óstavem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	_
-13	isýj	isýj	ADV	_	Deixis=Prox|PronType=Dem	12	advmod	_	SpaceAfter=No
+13	isýj	isýj	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	12	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	12	punct	_	_
 15	še	še	AUX	_	_	17	aux	_	_
 16	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	17	obj	_	_
@@ -6894,7 +6894,7 @@
 # text = - Am isazí kópel na móža li da danesé plátno?
 1	-	-	PUNCT	_	_	6	punct	_	_
 2	Am	am	CCONJ	_	_	6	cc	_	_
-3	isazí	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	isazí	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	kópel	kópel	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	_
 5	na	na	PART	_	Polarity=Neg	6	advmod	_	_
 6	móža	móžom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -7053,7 +7053,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	daj	dam	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	_
 8	go	ja	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obj	_	_
-9	ezí	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+9	ezí	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
 10	kúčetune	kúče	NOUN	_	Case=Gen|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Neut|Number=Sing	7	iobj	_	_
 11	i	i	CCONJ	_	_	12	cc	_	_
 12	kótetune	kóte	NOUN	_	Case=Gen|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
@@ -7090,7 +7090,7 @@
 3	žóny	žaná	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	7	nsubj	_	_
 4	pa	pa	ADP	_	_	6	case	_	_
 5	cǽlo	cæl	ADJ	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	amod	_	_
-6	düņóso	düņá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	3	obl	_	_
+6	düņóso	düņá	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	3	obl	_	_
 7	ímot	ímom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	karkíno	karkíno	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	_
 9	na	na	ADP	_	_	10	case	_	_
@@ -7280,7 +7280,7 @@
 8	ty	ja	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 9	prívdignij	prívdignom	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	_
 10	faf	faf	ADP	_	_	11	case	_	_
-11	kóštoso	kóšta	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Fem|Number=Sing	9	obl:lmod	_	SpaceAfter=No
+11	kóštoso	kóšta	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing	9	obl:lmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	póparij	póparem	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	9	conj	_	_
 14	kepéka	kepék	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	_
@@ -7301,7 +7301,7 @@
 8	lažýce	lažýca	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	_
 9	kvása	kvas	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	_
 10	faf	faf	ADP	_	_	11	case	_	_
-11	gǿlese	gøl	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	5	obl:lmod	_	SpaceAfter=No
+11	gǿlese	gøl	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	5	obl:lmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
@@ -7597,7 +7597,7 @@
 # sent_id = RITVAN_BAKŠÍŠ_AT_SÓRCE_s-3
 # text = - Itúzi še só razdelíme.
 1	-	-	PUNCT	_	_	5	punct	_	_
-2	Itúzi	itúzi	ADV	_	Deixis=Prox|PronType=Dem	5	advmod	_	_
+2	Itúzi	itúzi	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	5	advmod	_	_
 3	še	še	AUX	_	_	5	aux	_	_
 4	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	_
 5	razdelíme	rázdelem	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
@@ -7619,7 +7619,7 @@
 6	íšteme	íštom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	xcomp	_	_
 7	nevǽsto	nevǽsta	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	_
 8	za	za	ADP	_	_	11	case	_	_
-9	isózek	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+9	isózek	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 10	mláda	mlad	ADJ	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	11	amod	_	_
 11	čulǽka	čulǽk	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
@@ -7635,7 +7635,7 @@
 7	kak	kak	ADV	_	PronType=Int	9	advmod	_	_
 8	še	še	AUX	_	_	9	aux	_	_
 9	žyvé	žývom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
-10	izí	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	izí	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
 11	mlad	mlad	ADJ	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	_
 12	faf	faf	ADP	_	_	13	case	_	_
 13	kolíbono	kolíba	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
@@ -7707,7 +7707,7 @@
 5	jé	ja	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	6	obj	_	_
 6	prikalnáva	prekalnávom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	sas	sas	ADP	_	_	9	case	_	_
-8	ajsés	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+8	ajsés	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
 9	belé	belǽ	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
 10	:	:	PUNCT	_	_	6	punct	_	_
 
@@ -7889,7 +7889,7 @@
 4	mí	ja	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	iobj	_	_
 5	dójdaho	dójdom	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
 6	móne	ja	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
-7	isézi	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
+7	isézi	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
 8	jágance	jágne	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
 9	»	»	PUNCT	_	_	5	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -7948,9 +7948,9 @@
 1	–	–	PUNCT	_	_	7	punct	_	_
 2	Óti	óti	PART	_	_	7	case	_	_
 3	faf	faf	ADP	_	_	4	case	_	_
-4	Senátase	senát	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	7	obl	_	_
+4	Senátase	senát	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	7	obl	_	_
 5	uvótre	uvótre	ADV	_	_	7	advmod	_	_
-6	isélkus	isélkus	DET	_	Deixis=Prox|PronType=Dem	7	det	_	_
+6	isélkus	isélkus	DET	_	Deixis=Prox|DeixisRef=1|PronType=Dem	7	det	_	_
 7	sedéņe	sedéņe	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 8	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 9	ní	ní	PART	_	PartType=Neg	10	advmod	_	_
@@ -8741,7 +8741,7 @@
 # text = - Zǿmij isazí - reklála jí je tja, - to še tí trǽbava.
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Zǿmij	zǿmom	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	parataxis	_	_
-3	isazí	isazí	DET	_	Case=Acc|Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
+3	isazí	isazí	DET	_	Case=Acc|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	_
 4	-	-	PUNCT	_	_	2	punct	_	_
 5	reklála	réčem	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	jí	ja	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	5	iobj	_	_
@@ -8939,7 +8939,7 @@
 4	tó	ja	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs|Variant=Short	5	obj	_	_
 5	ískarem	ízkarom	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	_
 6	ad	ad	ADP	_	_	7	case	_	_
-7	akýlase	akýl	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	5	obl	_	_
+7	akýlase	akýl	NOUN	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	5	obl	_	_
 8	níta	níta	CCONJ	_	_	9	cc	_	_
 9	dekakó	dekaká	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -8960,7 +8960,7 @@
 12	bǽly	bæl	ADJ	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	6	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	pak	pak	SCONJ	_	_	17	cc	_	_
-15	isézi	isazí	DET	_	Case=Nom|Deixis=Prox|Number=Plur|PronType=Dem	17	det	_	_
+15	isézi	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Number=Plur|PronType=Dem	17	det	_	_
 16	so	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	žólty	žolt	ADJ	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
@@ -9519,7 +9519,7 @@
 1	-	-	PUNCT	_	_	5	punct	_	_
 2	Kakóf	kakvóv	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	det	_	_
 3	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
-4	izí	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	izí	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	bülbǘnt	bülbǘnt	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -9624,7 +9624,7 @@
 # sent_id = RITVAN_JÚDY_s-118
 # text = "Isázi májka še da je suhá" - pamýslil je i avé je byl játse umarén, légnal je da spi.
 1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-2	Isázi	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	Isázi	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	májka	májka	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	še	še	AUX	_	_	7	aux	_	_
 5	da	da	AUX	_	_	7	aux	_	_
@@ -10085,7 +10085,7 @@
 2	svadbáre	svadbár	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	némame	némom	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	_	_	3	punct	_	_
-5	isélkus	isélkus	DET	_	Deixis=Prox|PronType=Dem	7	det	_	_
+5	isélkus	isélkus	DET	_	Deixis=Prox|DeixisRef=1|PronType=Dem	7	det	_	_
 6	patajéno	pótajem	VERB	_	Aspect=Perf|Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	amod	_	_
 7	svádbo	svádba	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	_
 8	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -10218,7 +10218,7 @@
 
 # sent_id = RITVAN_STRÁŠNY_MEHLÜKÁTE_s-11
 # text = Isazí pečílo je ne za móne.
-1	Isazí	isazí	DET	_	Case=Nom|Deixis=Prox|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+1	Isazí	isazí	DET	_	Case=Nom|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	pečílo	pečílo	NOUN	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 3	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 4	ne	ne	PART	_	Polarity=Neg	2	advmod	_	_
@@ -10276,7 +10276,7 @@
 5	dam	dam	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	annó	adín	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	_
 7	ad	ad	ADP	_	_	10	case	_	_
-8	móse	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
+8	móse	moj	DET	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
 9	jedí	jedí	NUM	_	Definite=Ind|NumType=Card|Number=Plur	10	nummod	_	_
 10	górneta	górne	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
@@ -10288,7 +10288,7 @@
 3	ad	ad	ADP	_	_	4	case	_	_
 4	kavenǿno	kahvenǽ	NOUN	_	Case=Acc|Definite=Def|Deixis=Remt|DeixisRef=3|Gender=Fem|Number=Sing	1	obl	_	_
 5	pa	pa	ADP	_	_	7	case	_	_
-6	pomáckyse	pomáckyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|Gender=Neut|Number=Plur	7	amod	_	_
+6	pomáckyse	pomáckyj	ADJ	_	Case=Acc|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Neut|Number=Plur	7	amod	_	_
 7	selá	sélo	NOUN	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	1	obl:lmod	_	_
 
 # sent_id = ΚΟΚΚΑΣ_Ν_ΕΝΑΣ_ΠΑΠΑΣ,_ΕΝΑΣ_ΣΑΡΑΚΑΤΣΑΝΟΣ_ΚΑΙ_ΕΝΑΣ_ΧΟΤΖΑΣ_s-16
@@ -10302,7 +10302,7 @@
 1	Mlóiš	mlóziš	ADV	_	_	2	advmod	_	_
 2	kerét	kerét	NOUN	_	Definite=Ind	5	obl	_	_
 3	da	da	ADP	_	_	5	advmod	_	_
-4	isǽ	isǽ	ADV	_	Deixis=Prox|PronType=Dem	3	fixed	_	_
+4	isǽ	isǽ	ADV	_	Deixis=Prox|DeixisRef=1|PronType=Dem	3	fixed	_	_
 5	íma	ímom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	insána	insán	NOUN	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	_
 7	da	da	AUX	_	_	8	aux	_	_
@@ -10442,7 +10442,7 @@
 10	zére	zére	SCONJ	_	_	12	mark	_	_
 11	še	še	AUX	_	_	12	aux	_	_
 12	réčem	réčem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
-13	défüse	def	NOUN	_	Case=Gen|Definite=Def|Deixis=Prox|Gender=Masc|Number=Sing	12	obj	_	_
+13	défüse	def	NOUN	_	Case=Gen|Definite=Def|Deixis=Prox|DeixisRef=1|Gender=Masc|Number=Sing	12	obj	_	_
 14	da	da	AUX	_	_	16	aux	_	_
 15	tí	ja	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs|Variant=Short	16	iobj	_	_
 16	razmésti	rázmestem	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
