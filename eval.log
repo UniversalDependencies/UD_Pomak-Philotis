@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Pomak-Philotis:
-commit 340097fbfe841e530ab2231e5fe4f52256a3bf5a
-Merge: 0927e13 ea8e053
+commit 39b7e773ea3c31a35754cf440e6f213846d62d2b
+Merge: 870c003 1dcc122
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 86780 of 86780 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.92675236074041.
