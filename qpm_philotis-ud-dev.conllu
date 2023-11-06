@@ -1317,7 +1317,7 @@
 # sent_id = RITVAN_SKÓPYJEN_KÁMEN_s-50
 # text = Dǽdo Isén je bárnal faf pázahono mu, izvádil je kámenkane i dal mú go je.
 1	Dǽdo	dǽdo	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	fixed	_	_
+2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	_
 3	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	bárnal	bárnom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	faf	faf	ADP	_	_	6	case	_	_
@@ -2866,7 +2866,7 @@
 # sent_id = RITVAN_SKÓPYJEN_KÁMEN_s-52
 # text = Dǽdo Isén mú je kázal kak i pribrál sí je kámenkane.
 1	Dǽdo	dǽdo	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	_
-2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	fixed	_	_
+2	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	flat	_	_
 3	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
 4	je	som	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	kázal	kážom	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -6930,7 +6930,7 @@
 2	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	_
 3	só	so	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	_
 4	azám	azám	ADV	_	_	1	advmod	_	_
-5	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	fixed	_	_
+5	Isén	Isén	PROPN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	nsubj	_	_
 6	i	i	CCONJ	_	_	7	cc	_	_
 7	víka	víkom	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 8	mú	ja	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	SpaceAfter=No

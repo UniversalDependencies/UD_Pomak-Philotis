@@ -112,12 +112,12 @@
     <dep name="det">4036</dep>
     <dep name="discourse">452</dep>
     <dep name="expl">2350</dep>
-    <dep name="fixed">16</dep>
-    <dep name="flat">3</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat">16</dep>
     <dep name="iobj">3444</dep>
     <dep name="mark">1599</dep>
     <dep name="nmod">1533</dep>
-    <dep name="nsubj">3996</dep>
+    <dep name="nsubj">3997</dep>
     <dep name="nummod">1148</dep>
     <dep name="obj">6395</dep>
     <dep name="obl">2026</dep>
