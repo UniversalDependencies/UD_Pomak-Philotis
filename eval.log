@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Pomak-Philotis:
-commit 7f02969dfc0ab444f06573bb9548ce347ccc6446
-Merge: 9b067f8 9890a6a
+commit f98b7219f93d07890204a4834a71a9036f79512b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 13:14:45 2024 +0200
 Size: counted 34348 of 34348 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.07308758562048.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,8 +25,22 @@ Udapi: found 532 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 34348 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-dev.conllu
+[Line 361 Sent RITVAN_JÚDY_s-184 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:isózi:det --> 17:dur:mark)
+[Line 365 Sent RITVAN_JÚDY_s-184 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:isózi:det --> 21:námi:nmod)
+[Line 559 Sent XANTHINET-NATPRESH_2016-04-06-3_s-4 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:žómune:det --> 6:je:aux)
+[Line 560 Sent XANTHINET-NATPRESH_2016-04-06-3_s-4 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:žómune:det --> 7:bul:aux)
+[Line 793 Sent RITVAN_PRÓSANA_s-19 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Anná:det --> 3:kukóškyne:nmod)
+[Line 2176 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_1_s-34 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:katró:det --> 4:právo:amod)
+[Line 3190 Sent RITVAN_PÓPOVA_SNAHÁ_s-43 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:drúgo:det --> 12:ja:obj)
+[Line 4721 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_25_s-24 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:katró:det --> 4:právo:amod)
+[Line 4861 Sent RITVAN_ALTÓNENONO_PÍLE_s-86 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:vrit:det --> 15:to:nmod)
+[Line 5374 Sent RITVAN_ALTÓNENONO_PÍLE_s-8 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:kakvý:det --> 11:so:aux)
+...suppressing further errors regarding Warning
+Warnings: 18
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-test.conllu
+[Line 10476 Sent RITVAN_VAMPÍRE_s-20 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:kakvóv:det --> 12:je:aux)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-train.conllu
 *** PASSED ***
