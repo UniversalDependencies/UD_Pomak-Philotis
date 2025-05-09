@@ -2,7 +2,7 @@ User agreement for the Greek UD Treebank
 ----------------------------------------
 
 The Pomak UD Treebank is derived from the Pomak Dependency Treebank (to be made available in 2023).
- The Pomak UD Treebank is distributed under a CreativeCommons Attribution-NonCommercial-ShareAlike 3.0 license:
+The Pomak UD Treebank is distributed under a CreativeCommons Attribution-NonCommercial-ShareAlike 3.0 license:
 
 - http://creativecommons.org/licenses/by-nc-sa/3.0/
 - http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
