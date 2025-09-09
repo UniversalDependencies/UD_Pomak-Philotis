@@ -43,6 +43,7 @@ efforts. Morphological annotation was carried out by Ritvan Karahoǧa and Nicola
 Data available since: UD v2.10
 License: CC BY-NC-SA 3.0
 Includes text: yes
+Parallel: no
 Genre: news grammar-examples poetry fiction
 Lemmas: automatic with corrections
 UPOS: automatic with corrections
