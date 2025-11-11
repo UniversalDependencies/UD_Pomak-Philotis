@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Pomak-Philotis:
-commit 03ac8a9729529e9dad3699da9f82a4caed99fbb7
-Merge: 945e939 96736cf
+commit 6685b4bed61bbd6a51292e359ed4b0f20e942a63
+Merge: f899124 5c502a8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'qpm_philotis'
+Language code (from CoNLL-U file name) = 'qpm'
+Found the following data files: qpm_philotis-ud-dev.conllu, qpm_philotis-ud-test.conllu, qpm_philotis-ud-train.conllu
 Size: counted 34348 of 34348 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.07308758562048.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,89 +23,88 @@ Features: 21680 out of 34348 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL        174
-Udapi: found 174 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 34348 words.
 Genres: found 4 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-dev.conllu
-[Line 361 Sent RITVAN_JÚDY_s-184 Node 19]: [L3 Syntax leaf-det] 'det' not expected to have children (19:isózi:det --> 17:dur:mark)
-[Line 365 Sent RITVAN_JÚDY_s-184 Node 19]: [L3 Syntax leaf-det] 'det' not expected to have children (19:isózi:det --> 21:námi:nmod)
-[Line 559 Sent XANTHINET-NATPRESH_2016-04-06-3_s-4 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:žómune:det --> 6:je:aux)
-[Line 560 Sent XANTHINET-NATPRESH_2016-04-06-3_s-4 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:žómune:det --> 7:bul:aux)
-[Line 793 Sent RITVAN_PRÓSANA_s-19 Node 1]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Anná:det --> 3:kukóškyne:nmod)
-[Line 2176 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_1_s-34 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:katró:det --> 4:právo:amod)
-[Line 3190 Sent RITVAN_PÓPOVA_SNAHÁ_s-43 Node 14]: [L3 Syntax leaf-det] 'det' not expected to have children (14:drúgo:det --> 12:ja:obj)
-[Line 4721 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_25_s-24 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:katró:det --> 4:právo:amod)
-[Line 4861 Sent RITVAN_ALTÓNENONO_PÍLE_s-86 Node 13]: [L3 Syntax leaf-det] 'det' not expected to have children (13:vrit:det --> 15:to:nmod)
-[Line 5374 Sent RITVAN_ALTÓNENONO_PÍLE_s-8 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:kakvý:det --> 11:so:aux)
+[Line 54 Sent ΚΟΚΚΑΣ_Ν_ΟΤΑΝ_ΕΒΡΕΞΕ_ΑΡΑΧΝΕΣ_s-10]: [L3 Syntax too-many-objects] Multiple direct objects [12, 14, 16, 17] ('gi', 'gi', 'zabíte', 'golémi') under the predicate 'stóret'.
+[Line 361 Sent RITVAN_JÚDY_s-184]: [L3 Syntax leaf-det] 'det' not expected to have children (19:isózi:det --> 17:dur:mark)
+[Line 365 Sent RITVAN_JÚDY_s-184]: [L3 Syntax leaf-det] 'det' not expected to have children (19:isózi:det --> 21:námi:nmod)
+[Line 421 Sent RITVAN_JÚDY_s-163]: [L3 Syntax too-many-objects] Multiple direct objects [26, 29] ('go', 'zmijána') under the predicate 'vídi'.
+[Line 517 Sent ΘΕΟΧΑΡΙΔΗΣ_Π_ΚΑΙ_ΤΟ_ΜΩΡΟ_ΕΓΙΝΕ_ΒΑΣΙΛΙΑΣ_s-47]: [L3 Syntax too-many-objects] Multiple direct objects [12, 14] ('vi', 'magáreno') under the predicate 'dam'.
+[Line 559 Sent XANTHINET-NATPRESH_2016-04-06-3_s-4]: [L3 Syntax leaf-det] 'det' not expected to have children (5:žómune:det --> 6:je:aux)
+[Line 560 Sent XANTHINET-NATPRESH_2016-04-06-3_s-4]: [L3 Syntax leaf-det] 'det' not expected to have children (5:žómune:det --> 7:bul:aux)
+[Line 734 Sent ΚΟΚΚΑΣ_Ν_ΟΤΑΝ_Ο_ΘΕΟΣ_ΕΦΤΙΑΞΕ_ΤΟ_ΓΑΪΔΑΡΟ,_ΤΟ_ΣΚΥΛΟ,_ΤΟ_ΜΑΪΜΟΥΝΙ_ΚΑΙ_ΤΟΝ_ΑΝΘΡΩΠΟ_s-31]: [L3 Syntax too-many-objects] Multiple direct objects [2, 6] ('t', 'daj') under the predicate 'mólem'.
+[Line 793 Sent RITVAN_PRÓSANA_s-19]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Anná:det --> 3:kukóškyne:nmod)
+[Line 871 Sent ΚΟΚΚΑΣ_Ν_ΟΤΑΝ_ΟΙ_ΑΝΘΡΩΠΟΙ_ΖΟΥΣΑΝ_ΤΡΙΑΚΟΣΙΑ_ΧΡΟΝΙΑ_s-55]: [L3 Syntax too-many-objects] Multiple direct objects [7, 12] ('tébe', 'krívo') under the predicate 'rečéš'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 18
-*** FAILED *** with 18 errors
+[Line 3031 Sent ΘΕΟΧΑΡΙΔΗΣ_Π_Η_ΑΡΚΟΥΔΑ,_Ο_ΑΛΗ-ΑΓΙ_ΚΑΙ_ΤΟ_ΤΕΡΑΣ_s-25]: [L3 Warning pron-det-without-prontype] The word 'Ají' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 6325 Sent RODOPSKY_Ο_ΛΥΚΟΣ_ΚΑΙ_ΤΟ_ΣΚΥΛΙ_s-19]: [L3 Warning pron-det-without-prontype] The word 'samó' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10215 Sent UNOFFICIAL_Ο_ΑΝΘΡΩΠΟΣ_ΚΑΙ_ΤΟ_ΚΕΦΑΛΙ_s-7]: [L3 Warning pron-det-without-prontype] The word 'jé' is tagged 'PRON' but it lacks the 'PronType' feature
+Syntax errors: 52
+Warnings: 3
+*** FAILED *** with 52 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-test.conllu
-[Line 131 Sent UNOFFICIAL_ΟΙ_ΔΥΟ_ΕΧΘΡΟΙ_s-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Bir vakýt bir zemán' does not have the 'ExtPos' feature
-[Line 266 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-31 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'at kadé' does not have the 'ExtPos' feature
-[Line 266 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-31 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'at'
-[Line 563 Sent XANTHINET-NATPRESH_2009-10-06_s-10 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'za námi' does not have the 'ExtPos' feature
-[Line 778 Sent UNOFFICIAL_ΤΑ_ΔΥΟ_ΚΟΚΚΟΡΙΑ_s-4 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'bez da' does not have the 'ExtPos' feature
-[Line 835 Sent UNOFFICIAL_Ο_ΖΗΤΙΑΝΟΣ_s-31 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'za da' does not have the 'ExtPos' feature
-[Line 1046 Sent RITVAN_MÍČEK_ČULǼK_s-31 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'razý li ste' does not have the 'ExtPos' feature
-[Line 1524 Sent XANTHINET-NATPRESH_2010-05-10_s-6 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'za da' does not have the 'ExtPos' feature
-[Line 1799 Sent RODOPSKY_ΤΟ_ΑΓΟΡΑΚΙ,_ΤΟ_ΣΚΥΛΑΚΙ,_ΤΟ_ΓΑΤΑΚΙ_ΚΑΙ_ΤΟ_ΒΑΤΡΑΧΑΚΙ_s-71 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'prez kadéna' does not have the 'ExtPos' feature
-[Line 1799 Sent RODOPSKY_ΤΟ_ΑΓΟΡΑΚΙ,_ΤΟ_ΣΚΥΛΑΚΙ,_ΤΟ_ΓΑΤΑΚΙ_ΚΑΙ_ΤΟ_ΒΑΤΡΑΧΑΚΙ_s-71 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'prez'
-[Line 1956 Sent ΚΟΚΚΑΣ_Ν_ΤΑ_ΔΥΟ_ΑΓΙΑ_ΚΟΡΙΤΣΑΚΙΑ_s-85 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'at tam' does not have the 'ExtPos' feature
-[Line 1956 Sent ΚΟΚΚΑΣ_Ν_ΤΑ_ΔΥΟ_ΑΓΙΑ_ΚΟΡΙΤΣΑΚΙΑ_s-85 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'at'
-[Line 1980 Sent RITVAN_ALTÓNENONO_PÍLE_s-105 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'da adín' does not have the 'ExtPos' feature
-[Line 1980 Sent RITVAN_ALTÓNENONO_PÍLE_s-105 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'da'
+[Line 38 Sent ΚΟΚΚΑΣ_Ν_ΤΑ_ΔΥΟ_ΑΓΙΑ_ΚΟΡΙΤΣΑΚΙΑ_s-10]: [L3 Syntax too-many-objects] Multiple direct objects [4, 9] ('gi', 'mómy') under the predicate 'zímat'.
+[Line 94 Sent RITVAN_GOVEDÁRCKANA_DAŠTERǼ_s-39]: [L3 Warning pron-det-without-prontype] The word 'altonǧícka' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 131 Sent UNOFFICIAL_ΟΙ_ΔΥΟ_ΕΧΘΡΟΙ_s-2]: [L3 Warning fixed-without-extpos] Fixed expression 'Bir vakýt bir zemán' does not have the 'ExtPos' feature
+[Line 226 Sent ΠΑΚΕΘΡΑ_ΤΡΙΑ_ΑΔΕΡΦΙΑ_ΑΓΑΠΗΣΑΝ_ΕΝΑ_ΚΟΡΙΤΣΙ_s-63]: [L3 Warning pron-det-without-prontype] The word 'izí' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 266 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-31]: [L3 Warning fixed-without-extpos] Fixed expression 'at kadé' does not have the 'ExtPos' feature
+[Line 266 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-31]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('at')
+[Line 563 Sent XANTHINET-NATPRESH_2009-10-06_s-10]: [L3 Warning fixed-without-extpos] Fixed expression 'za námi' does not have the 'ExtPos' feature
+[Line 727 Sent ΘΕΟΧΑΡΙΔΗΣ_Π_ΠΗΓΑ_ΣΤΟΝ_ΑΛΛΟΝ_ΚΟΣΜΟ_s-8]: [L3 Syntax too-many-objects] Multiple direct objects [13, 15] ('gi', 'umrétune') under the predicate 'adnesé'.
+[Line 778 Sent UNOFFICIAL_ΤΑ_ΔΥΟ_ΚΟΚΚΟΡΙΑ_s-4]: [L3 Warning fixed-without-extpos] Fixed expression 'bez da' does not have the 'ExtPos' feature
+[Line 835 Sent UNOFFICIAL_Ο_ΖΗΤΙΑΝΟΣ_s-31]: [L3 Warning fixed-without-extpos] Fixed expression 'za da' does not have the 'ExtPos' feature
+[Line 954 Sent XANTHINET-NATPRESH_2016-04-08-6_s-11]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'mesecáse') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1046 Sent RITVAN_MÍČEK_ČULǼK_s-31]: [L3 Warning fixed-without-extpos] Fixed expression 'razý li ste' does not have the 'ExtPos' feature
+[Line 1519 Sent XANTHINET-NATPRESH_2016-05-10-1_s-1]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'ǧugáry') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further errors regarding Warning
-[Line 2256 Sent RITVAN_KADRIJÁ_I_NEDRIJÁ_s-53 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'pa'
-[Line 2506 Sent ΚΑΤΑΚΗ_Δ_Η_ΑΣΩΜΑΤΟΣ_ΚΕΦΑΛΗ_s-67 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'at'
-[Line 4018 Sent ΚΑΤΑΚΗ_Δ_Η_ΑΣΩΜΑΤΟΣ_ΚΕΦΑΛΗ_s-74 Node 31]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'pa'
-[Line 4520 Sent ΣΥΛΛΟΓΟΣ_ΕΝΑ_ΑΓΟΡΙ_ΚΙ_ΕΝΑ_ΚΟΡΙΤΣΙ_s-40 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'prez'
-[Line 5066 Sent XANTHINET-NATPRESH_2010-05-17_s-13 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Da'
-[Line 5135 Sent ΘΕΟΧΑΡΙΔΗΣ_Π_Η_ΚΟΤΑ_s-10 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ga'
+[Line 1633 Sent ΚΟΚΚΑΣ_Ν_ΟΤΑΝ_ΕΒΡΕΞΕ_ΑΡΑΧΝΕΣ_s-15]: [L3 Syntax too-many-objects] Multiple direct objects [9, 12] ('móte', 'hüč') under the predicate 'čúdi'.
+[Line 1639 Sent UNOFFICIAL_Ο_ΤΣΙΓΚΟΥΝΗΣ_s-14]: [L3 Syntax too-many-objects] Multiple direct objects [2, 3] ('gi', 'líryte') under the predicate 'Imǽšo'.
+[Line 1645 Sent UNOFFICIAL_Ο_ΤΣΙΓΚΟΥΝΗΣ_s-14]: [L3 Syntax too-many-objects] Multiple direct objects [5, 6] ('kaná', 'gi') under the predicate 'stóri'.
+[Line 1713 Sent RITVAN_PÓPOVA_SNAHÁ_s-19]: [L3 Syntax too-many-objects] Multiple direct objects [5, 8, 9] ('séstro', 'nú', 'kahvǿ') under the predicate 'svárij'.
+[Line 1799 Sent RODOPSKY_ΤΟ_ΑΓΟΡΑΚΙ,_ΤΟ_ΣΚΥΛΑΚΙ,_ΤΟ_ΓΑΤΑΚΙ_ΚΑΙ_ΤΟ_ΒΑΤΡΑΧΑΚΙ_s-71]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('prez')
+[Line 1956 Sent ΚΟΚΚΑΣ_Ν_ΤΑ_ΔΥΟ_ΑΓΙΑ_ΚΟΡΙΤΣΑΚΙΑ_s-85]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('at')
+[Line 1980 Sent RITVAN_ALTÓNENONO_PÍLE_s-105]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('da')
 ...suppressing further errors regarding Syntax
-Syntax errors: 17
-Warnings: 63
-*** FAILED *** with 17 errors
+Syntax errors: 59
+Warnings: 107
+*** FAILED *** with 59 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qpm --max-err=10 UD_Pomak-Philotis/qpm_philotis-ud-train.conllu
-[Line 126 Sent XANTHINET-NATPRESH_2021-02-02_s-4 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'za to' does not have the 'ExtPos' feature
-[Line 133 Sent XANTHINET-NATPRESH_2021-02-02_s-4 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'ad pó napréš itám' does not have the 'ExtPos' feature
-[Line 133 Sent XANTHINET-NATPRESH_2021-02-02_s-4 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ad'
-[Line 293 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-78 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'agá da' does not have the 'ExtPos' feature
-[Line 302 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-78 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'bez da' does not have the 'ExtPos' feature
-[Line 313 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_24_s-53 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ot kadé' does not have the 'ExtPos' feature
-[Line 643 Sent ΚΟΚΚΑΣ_Ν_ΤΑ_ΔΥΟ_ΑΓΙΑ_ΚΟΡΙΤΣΑΚΙΑ_s-61 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Agá kákna' does not have the 'ExtPos' feature
-[Line 912 Sent XANTHINET-NATPRESH_2010-05-11_s-8 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'za da' does not have the 'ExtPos' feature
-[Line 1127 Sent UNOFFICIAL_Ο_ΑΝΘΡΩΠΟΣ_ΚΑΙ_Ο_ΘΕΟΣ_s-27 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'za da' does not have the 'ExtPos' feature
-[Line 1130 Sent UNOFFICIAL_Ο_ΑΝΘΡΩΠΟΣ_ΚΑΙ_Ο_ΘΕΟΣ_s-27 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'ad itám' does not have the 'ExtPos' feature
-[Line 1130 Sent UNOFFICIAL_Ο_ΑΝΘΡΩΠΟΣ_ΚΑΙ_Ο_ΘΕΟΣ_s-27 Node 29]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ad'
-[Line 1240 Sent XANTHINET-NATPRESH_2016-05-17-1_s-5 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'za da' does not have the 'ExtPos' feature
+[Line 39 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_25_s-33]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'rénkeve') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 41 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_25_s-33]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'rénkeve') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 126 Sent XANTHINET-NATPRESH_2021-02-02_s-4]: [L3 Warning fixed-without-extpos] Fixed expression 'za to' does not have the 'ExtPos' feature
+[Line 133 Sent XANTHINET-NATPRESH_2021-02-02_s-4]: [L3 Warning fixed-without-extpos] Fixed expression 'ad pó napréš itám' does not have the 'ExtPos' feature
+[Line 133 Sent XANTHINET-NATPRESH_2021-02-02_s-4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('ad')
+[Line 156 Sent ΚΑΤΑΚΗ_Δ_Η_ΤΕΛΕΥΤΑΙΑ_ΑΜΑΡΤΙΑ_s-15]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'čepáne') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 245 Sent ΚΑΤΑΚΗ_Δ_Η_ΑΣΩΜΑΤΟΣ_ΚΕΦΑΛΗ_s-78]: [L3 Warning pron-det-without-prontype] The word 'cǽla' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 293 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-78]: [L3 Warning fixed-without-extpos] Fixed expression 'agá da' does not have the 'ExtPos' feature
+[Line 302 Sent RITVAN_STRÁŠNY_MEHLÜKÁTE_s-78]: [L3 Warning fixed-without-extpos] Fixed expression 'bez da' does not have the 'ExtPos' feature
+[Line 313 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_24_s-53]: [L3 Warning fixed-without-extpos] Fixed expression 'Ot kadé' does not have the 'ExtPos' feature
+[Line 478 Sent XANTHINET-NATPRESH_2016-07-10_s-7]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'sélo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further errors regarding Warning
-[Line 1616 Sent XANTHINET-NATPRESH_2016-05-07-3_s-5 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'na'
-[Line 1818 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_10_s-25 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'at'
-[Line 2828 Sent UNOFFICIAL_ΟΙ_ΔΥΟ_ΕΧΘΡΟΙ_s-13 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'da'
-[Line 2887 Sent UNOFFICIAL_Ο_ΓΑΜΟΣ_s-7 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'pa'
-[Line 2988 Sent ΚΑΤΑΚΗ_Δ_Η_ΓΡΙΑ_ΠΟΥ_ΓΥΡΙΖΕ_ΑΡΓΑ_ΣΤΟ_ΣΠΙΤΙ_s-20 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'nah'
-[Line 3345 Sent XANTHINET-NATPRESH_2016-04-08-6_s-3 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'za'
-[Line 4041 Sent ΘΕΟΧΑΡΙΔΗΣ_Π_ΤΟ_ΠΑΛΙΚΑΡΙ,_ΤΟ_ΚΟΡΙΤΣΙ_ΚΑΙ_ΤΟ_ΡΟΔΙ_s-2 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Na'
-[Line 4579 Sent XANTHINET-NATPRESH_2016-02-29_s-5 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'na'
+[Line 649 Sent ΚΟΚΚΑΣ_Ν_ΤΑ_ΔΥΟ_ΑΓΙΑ_ΚΟΡΙΤΣΑΚΙΑ_s-61]: [L3 Syntax too-many-objects] Multiple direct objects [8, 9] ('gi', 'čírničičky') under the predicate 'nahódet'.
+[Line 1130 Sent UNOFFICIAL_Ο_ΑΝΘΡΩΠΟΣ_ΚΑΙ_Ο_ΘΕΟΣ_s-27]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('ad')
+[Line 1288 Sent UNOFFICIAL_Ο_ΑΝΘΡΩΠΟΣ_ΚΑΙ_ΤΟ_ΚΕΦΑΛΙ_s-13]: [L3 Syntax too-many-objects] Multiple direct objects [8, 10] ('kaná', 'glavóno') under the predicate 'nahóde'.
+[Line 1616 Sent XANTHINET-NATPRESH_2016-05-07-3_s-5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('na')
+[Line 1818 Sent ΚΟΚΚΑΣ_Ν_ΜΑΘΗΜΑ_10_s-25]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('at')
+[Line 2828 Sent UNOFFICIAL_ΟΙ_ΔΥΟ_ΕΧΘΡΟΙ_s-13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('da')
+[Line 2887 Sent UNOFFICIAL_Ο_ΓΑΜΟΣ_s-7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('pa')
+[Line 2988 Sent ΚΑΤΑΚΗ_Δ_Η_ΓΡΙΑ_ΠΟΥ_ΓΥΡΙΖΕ_ΑΡΓΑ_ΣΤΟ_ΣΠΙΤΙ_s-20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('nah')
+[Line 3345 Sent XANTHINET-NATPRESH_2016-04-08-6_s-3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('za')
 ...suppressing further errors regarding Syntax
-Syntax errors: 42
-Warnings: 170
-*** FAILED *** with 42 errors
+Syntax errors: 75
+Warnings: 253
+*** FAILED *** with 75 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.222222222222222) = 0.0170940170940171
-(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.511967151408895) = 0.131273628566383
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.949342028647956) = 0.292105239583987
-(weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.595294131830339) * (availability=1) * (validity=0.01) = 0.00595294131830339
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.222222222222222) = 0.0246913580246914
+(weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
+(weight=0.37037037037037) * (score{size}=0.511967151408895) = 0.189617463484776
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.0941176470588235) = 0.0104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.43793951102251) * (availability=1) * (validity=0.01) = 0.0043793951102251
 STARS = 0
-UD_Pomak-Philotis	0.00595294131830339	0
+UD_Pomak-Philotis	0.0043793951102251	0
